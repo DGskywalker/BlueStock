@@ -1,5 +1,20 @@
-.DS_Store
+# Python bytecode & cache
 __pycache__/
-*.pyc
-.vscode/
+*.py[cod]
+*$py.class
+
+# Environment & IDE
+.env
+.venv/
+env/
+venv/
 .idea/
+.vscode/
+.DS_Store
+
+# SQLite Database files (Excluded per capstone guidelines, schema tracked in sql/schema.sql)
+*.db
+data/db/*.db
+
+# Jupyter Checkpoints
+.ipynb_checkpoints/
