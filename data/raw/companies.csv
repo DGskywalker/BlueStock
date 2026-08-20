@@ -1,0 +1,93 @@
+company_id,ticker,company_name,bse_code,nse_code,sector_id,sector,industry,website,face_value
+1,RELIANCE,RELIANCE India Limited,500001,RELIANCE,2,IT,IT Industry,https://www.reliance.com,10.0
+2,TCS,TCS India Limited,500002,TCS,3,Oil & Gas,Oil & Gas Industry,https://www.tcs.com,10.0
+3,HDFCBANK,HDFCBANK India Limited,500003,HDFCBANK,4,Consumer Goods,Consumer Goods Industry,https://www.hdfcbank.com,10.0
+4,ICICIBANK,ICICIBANK India Limited,500004,ICICIBANK,5,Automobile,Automobile Industry,https://www.icicibank.com,10.0
+5,INFY,INFY India Limited,500005,INFY,6,Metals,Metals Industry,https://www.infy.com,10.0
+6,BHARTIARTL,BHARTIARTL India Limited,500006,BHARTIARTL,7,Pharma,Pharma Industry,https://www.bhartiartl.com,10.0
+7,ITC,ITC India Limited,500007,ITC,8,Power,Power Industry,https://www.itc.com,10.0
+8,SBIN,SBIN India Limited,500008,SBIN,9,Construction,Construction Industry,https://www.sbin.com,10.0
+9,LTIM,LTIM India Limited,500009,LTIM,1,Financial Services,Financial Services Industry,https://www.ltim.com,10.0
+10,HINDUNILVR,HINDUNILVR India Limited,500010,HINDUNILVR,2,IT,IT Industry,https://www.hindunilvr.com,10.0
+11,LT,LT India Limited,500011,LT,3,Oil & Gas,Oil & Gas Industry,https://www.lt.com,10.0
+12,BAJFINANCE,BAJFINANCE India Limited,500012,BAJFINANCE,4,Consumer Goods,Consumer Goods Industry,https://www.bajfinance.com,10.0
+13,HCLTECH,HCLTECH India Limited,500013,HCLTECH,5,Automobile,Automobile Industry,https://www.hcltech.com,10.0
+14,MARUTI,MARUTI India Limited,500014,MARUTI,6,Metals,Metals Industry,https://www.maruti.com,10.0
+15,SUNPHARMA,SUNPHARMA India Limited,500015,SUNPHARMA,7,Pharma,Pharma Industry,https://www.sunpharma.com,10.0
+16,AXISBANK,AXISBANK India Limited,500016,AXISBANK,8,Power,Power Industry,https://www.axisbank.com,10.0
+17,ADANIENT,ADANIENT India Limited,500017,ADANIENT,9,Construction,Construction Industry,https://www.adanient.com,10.0
+18,KOTAKBANK,KOTAKBANK India Limited,500018,KOTAKBANK,1,Financial Services,Financial Services Industry,https://www.kotakbank.com,10.0
+19,TITAN,TITAN India Limited,500019,TITAN,2,IT,IT Industry,https://www.titan.com,10.0
+20,ONGC,ONGC India Limited,500020,ONGC,3,Oil & Gas,Oil & Gas Industry,https://www.ongc.com,10.0
+21,TATAMOTORS,TATAMOTORS India Limited,500021,TATAMOTORS,4,Consumer Goods,Consumer Goods Industry,https://www.tatamotors.com,10.0
+22,NTPC,NTPC India Limited,500022,NTPC,5,Automobile,Automobile Industry,https://www.ntpc.com,10.0
+23,POWERGRID,POWERGRID India Limited,500023,POWERGRID,6,Metals,Metals Industry,https://www.powergrid.com,10.0
+24,ULTRACEMCO,ULTRACEMCO India Limited,500024,ULTRACEMCO,7,Pharma,Pharma Industry,https://www.ultracemco.com,10.0
+25,ASIANPAINT,ASIANPAINT India Limited,500025,ASIANPAINT,8,Power,Power Industry,https://www.asianpaint.com,10.0
+26,COALINDIA,COALINDIA India Limited,500026,COALINDIA,9,Construction,Construction Industry,https://www.coalindia.com,10.0
+27,BAJAJFINSV,BAJAJFINSV India Limited,500027,BAJAJFINSV,1,Financial Services,Financial Services Industry,https://www.bajajfinsv.com,10.0
+28,M_M,M_M India Limited,500028,M_M,2,IT,IT Industry,https://www.mm.com,10.0
+29,JSWSTEEL,JSWSTEEL India Limited,500029,JSWSTEEL,3,Oil & Gas,Oil & Gas Industry,https://www.jswsteel.com,10.0
+30,TATASTEEL,TATASTEEL India Limited,500030,TATASTEEL,4,Consumer Goods,Consumer Goods Industry,https://www.tatasteel.com,10.0
+31,ADANIPORTS,ADANIPORTS India Limited,500031,ADANIPORTS,5,Automobile,Automobile Industry,https://www.adaniports.com,10.0
+32,SIEMENS,SIEMENS India Limited,500032,SIEMENS,6,Metals,Metals Industry,https://www.siemens.com,10.0
+33,GRASIM,GRASIM India Limited,500033,GRASIM,7,Pharma,Pharma Industry,https://www.grasim.com,10.0
+34,PIDILITIND,PIDILITIND India Limited,500034,PIDILITIND,8,Power,Power Industry,https://www.pidilitind.com,10.0
+35,BEL,BEL India Limited,500035,BEL,9,Construction,Construction Industry,https://www.bel.com,10.0
+36,IOC,IOC India Limited,500036,IOC,1,Financial Services,Financial Services Industry,https://www.ioc.com,10.0
+37,HAL,HAL India Limited,500037,HAL,2,IT,IT Industry,https://www.hal.com,10.0
+38,VBL,VBL India Limited,500038,VBL,3,Oil & Gas,Oil & Gas Industry,https://www.vbl.com,10.0
+39,INDUSINDBK,INDUSINDBK India Limited,500039,INDUSINDBK,4,Consumer Goods,Consumer Goods Industry,https://www.indusindbk.com,10.0
+40,BPCL,BPCL India Limited,500040,BPCL,5,Automobile,Automobile Industry,https://www.bpcl.com,10.0
+41,NESTLEIND,NESTLEIND India Limited,500041,NESTLEIND,6,Metals,Metals Industry,https://www.nestleind.com,10.0
+42,GODREJCP,GODREJCP India Limited,500042,GODREJCP,7,Pharma,Pharma Industry,https://www.godrejcp.com,10.0
+43,DLF,DLF India Limited,500043,DLF,8,Power,Power Industry,https://www.dlf.com,10.0
+44,TRENT,TRENT India Limited,500044,TRENT,9,Construction,Construction Industry,https://www.trent.com,10.0
+45,ZOMATO,ZOMATO India Limited,500045,ZOMATO,1,Financial Services,Financial Services Industry,https://www.zomato.com,10.0
+46,CHOLAFIN,CHOLAFIN India Limited,500046,CHOLAFIN,2,IT,IT Industry,https://www.cholafin.com,10.0
+47,GAIL,GAIL India Limited,500047,GAIL,3,Oil & Gas,Oil & Gas Industry,https://www.gail.com,10.0
+48,DIVISLAB,DIVISLAB India Limited,500048,DIVISLAB,4,Consumer Goods,Consumer Goods Industry,https://www.divislab.com,10.0
+49,HDFCLIFE,HDFCLIFE India Limited,500049,HDFCLIFE,5,Automobile,Automobile Industry,https://www.hdfclife.com,10.0
+50,BRITANNIA,BRITANNIA India Limited,500050,BRITANNIA,6,Metals,Metals Industry,https://www.britannia.com,10.0
+51,CIPLA,CIPLA India Limited,500051,CIPLA,7,Pharma,Pharma Industry,https://www.cipla.com,10.0
+52,INTERGLOBE,INTERGLOBE India Limited,500052,INTERGLOBE,8,Power,Power Industry,https://www.interglobe.com,10.0
+53,SHRIRAMFIN,SHRIRAMFIN India Limited,500053,SHRIRAMFIN,9,Construction,Construction Industry,https://www.shriramfin.com,10.0
+54,BAJAJ-AUTO,BAJAJ-AUTO India Limited,500054,BAJAJ-AUTO,1,Financial Services,Financial Services Industry,https://www.bajajauto.com,10.0
+55,ICICIPRULI,ICICIPRULI India Limited,500055,ICICIPRULI,2,IT,IT Industry,https://www.icicipruli.com,10.0
+56,TECHM,TECHM India Limited,500056,TECHM,3,Oil & Gas,Oil & Gas Industry,https://www.techm.com,10.0
+57,HEROMOTOCO,HEROMOTOCO India Limited,500057,HEROMOTOCO,4,Consumer Goods,Consumer Goods Industry,https://www.heromotoco.com,10.0
+58,EICHERMOT,EICHERMOT India Limited,500058,EICHERMOT,5,Automobile,Automobile Industry,https://www.eichermot.com,10.0
+59,APOLLOHOSP,APOLLOHOSP India Limited,500059,APOLLOHOSP,6,Metals,Metals Industry,https://www.apollohosp.com,10.0
+60,DRREDDY,DRREDDY India Limited,500060,DRREDDY,7,Pharma,Pharma Industry,https://www.drreddy.com,10.0
+61,VARUNBEV,VARUNBEV India Limited,500061,VARUNBEV,8,Power,Power Industry,https://www.varunbev.com,10.0
+62,AMBUJACEM,AMBUJACEM India Limited,500062,AMBUJACEM,9,Construction,Construction Industry,https://www.ambujacem.com,10.0
+63,TATAELXSI,TATAELXSI India Limited,500063,TATAELXSI,1,Financial Services,Financial Services Industry,https://www.tataelxsi.com,10.0
+64,ABB,ABB India Limited,500064,ABB,2,IT,IT Industry,https://www.abb.com,10.0
+65,MOTHERSON,MOTHERSON India Limited,500065,MOTHERSON,3,Oil & Gas,Oil & Gas Industry,https://www.motherson.com,10.0
+66,BOSCHLTD,BOSCHLTD India Limited,500066,BOSCHLTD,4,Consumer Goods,Consumer Goods Industry,https://www.boschltd.com,10.0
+67,INDIGO,INDIGO India Limited,500067,INDIGO,5,Automobile,Automobile Industry,https://www.indigo.com,10.0
+68,SRF,SRF India Limited,500068,SRF,6,Metals,Metals Industry,https://www.srf.com,10.0
+69,POLYCAB,POLYCAB India Limited,500069,POLYCAB,7,Pharma,Pharma Industry,https://www.polycab.com,10.0
+70,LODHA,LODHA India Limited,500070,LODHA,8,Power,Power Industry,https://www.lodha.com,10.0
+71,JIOFIN,JIOFIN India Limited,500071,JIOFIN,9,Construction,Construction Industry,https://www.jiofin.com,10.0
+72,MUTHOOTFIN,MUTHOOTFIN India Limited,500072,MUTHOOTFIN,1,Financial Services,Financial Services Industry,https://www.muthootfin.com,10.0
+73,CANBK,CANBK India Limited,500073,CANBK,2,IT,IT Industry,https://www.canbk.com,10.0
+74,TATACOMM,TATACOMM India Limited,500074,TATACOMM,3,Oil & Gas,Oil & Gas Industry,https://www.tatacomm.com,10.0
+75,MAXHEALTH,MAXHEALTH India Limited,500075,MAXHEALTH,4,Consumer Goods,Consumer Goods Industry,https://www.maxhealth.com,10.0
+76,PAGEIND,PAGEIND India Limited,500076,PAGEIND,5,Automobile,Automobile Industry,https://www.pageind.com,10.0
+77,COLPAL,COLPAL India Limited,500077,COLPAL,6,Metals,Metals Industry,https://www.colpal.com,10.0
+78,ICICIGI,ICICIGI India Limited,500078,ICICIGI,7,Pharma,Pharma Industry,https://www.icicigi.com,10.0
+79,IDFCFIRSTB,IDFCFIRSTB India Limited,500079,IDFCFIRSTB,8,Power,Power Industry,https://www.idfcfirstb.com,10.0
+80,TATAINVEST,TATAINVEST India Limited,500080,TATAINVEST,9,Construction,Construction Industry,https://www.tatainvest.com,10.0
+81,PERSISTENT,PERSISTENT India Limited,500081,PERSISTENT,1,Financial Services,Financial Services Industry,https://www.persistent.com,10.0
+82,TATACHEM,TATACHEM India Limited,500082,TATACHEM,2,IT,IT Industry,https://www.tatachem.com,10.0
+83,MANKIND,MANKIND India Limited,500083,MANKIND,3,Oil & Gas,Oil & Gas Industry,https://www.mankind.com,10.0
+84,PAYTM,PAYTM India Limited,500084,PAYTM,4,Consumer Goods,Consumer Goods Industry,https://www.paytm.com,10.0
+85,POLICYBZR,POLICYBZR India Limited,500085,POLICYBZR,5,Automobile,Automobile Industry,https://www.policybzr.com,10.0
+86,AWL,AWL India Limited,500086,AWL,6,Metals,Metals Industry,https://www.awl.com,10.0
+87,IRCTC,IRCTC India Limited,500087,IRCTC,7,Pharma,Pharma Industry,https://www.irctc.com,10.0
+88,PFC,PFC India Limited,500088,PFC,8,Power,Power Industry,https://www.pfc.com,10.0
+89,RECLTD,RECLTD India Limited,500089,RECLTD,9,Construction,Construction Industry,https://www.recltd.com,10.0
+90,SAIL,SAIL India Limited,500090,SAIL,1,Financial Services,Financial Services Industry,https://www.sail.com,10.0
+91,VEDL,VEDL India Limited,500091,VEDL,2,IT,IT Industry,https://www.vedl.com,10.0
+92,WIPRO,WIPRO India Limited,500092,WIPRO,3,Oil & Gas,Oil & Gas Industry,https://www.wipro.com,10.0
