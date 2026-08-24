@@ -75,15 +75,50 @@ CREATE TABLE IF NOT EXISTS cashflow (
     FOREIGN KEY (company_id) REFERENCES companies(company_id) ON DELETE CASCADE
 );
 
--- 6. Financial Ratios Table
+-- 6. Financial Ratios Table (Sprint 2 - 14+ Computed KPI Columns)
 CREATE TABLE IF NOT EXISTS financial_ratios (
     company_id INTEGER NOT NULL,
     year INTEGER NOT NULL,
+    net_profit_margin_pct REAL,
+    operating_profit_margin_pct REAL,
+    return_on_equity_pct REAL,
+    return_on_capital_employed_pct REAL,
+    return_on_assets_pct REAL,
+    debt_to_equity REAL,
+    high_leverage_flag INTEGER DEFAULT 0,
+    interest_coverage REAL,
+    icr_label TEXT,
+    icr_warning_flag INTEGER DEFAULT 0,
+    net_debt_cr REAL,
+    asset_turnover REAL,
+    free_cash_flow_cr REAL,
+    cfo_quality_score REAL,
+    cfo_quality_label TEXT,
+    capex_cr REAL,
+    capex_intensity_pct REAL,
+    capex_intensity_label TEXT,
+    fcf_conversion_pct REAL,
+    capital_allocation_pattern TEXT,
+    earnings_per_share REAL,
+    book_value_per_share REAL,
+    dividend_payout_ratio_pct REAL,
+    total_debt_cr REAL,
+    cash_from_operations_cr REAL,
+    revenue_cagr_3yr REAL,
+    revenue_cagr_5yr REAL,
+    revenue_cagr_5yr_flag TEXT,
+    pat_cagr_3yr REAL,
+    pat_cagr_5yr REAL,
+    pat_cagr_5yr_flag TEXT,
+    eps_cagr_3yr REAL,
+    eps_cagr_5yr REAL,
+    eps_cagr_5yr_flag TEXT,
     pe_ratio REAL,
     pb_ratio REAL,
     roe_pct REAL,
     roce_pct REAL,
-    debt_to_equity REAL,
+    debt_to_equity_source REAL,
+    composite_quality_score REAL,
     PRIMARY KEY (company_id, year),
     FOREIGN KEY (company_id) REFERENCES companies(company_id) ON DELETE CASCADE
 );
@@ -146,4 +181,5 @@ CREATE TABLE IF NOT EXISTS peer_groups (
 CREATE INDEX IF NOT EXISTS idx_pnl_comp ON profitandloss(company_id);
 CREATE INDEX IF NOT EXISTS idx_bs_comp ON balancesheet(company_id);
 CREATE INDEX IF NOT EXISTS idx_cf_comp ON cashflow(company_id);
+CREATE INDEX IF NOT EXISTS idx_ratios_comp ON financial_ratios(company_id);
 CREATE INDEX IF NOT EXISTS idx_prices_comp_date ON stock_prices(company_id, date);

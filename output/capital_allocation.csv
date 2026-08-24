@@ -1,0 +1,1188 @@
+company_id,ticker,year,cfo_sign,cfi_sign,cff_sign,pattern_label
+1,RELIANCE,2012,+,-,-,Reinvestor
+1,RELIANCE,2013,+,-,-,Reinvestor
+1,RELIANCE,2014,+,-,-,Reinvestor
+1,RELIANCE,2015,+,-,-,Shareholder Returns
+1,RELIANCE,2016,+,-,-,Shareholder Returns
+1,RELIANCE,2017,+,-,-,Reinvestor
+1,RELIANCE,2018,+,-,-,Reinvestor
+1,RELIANCE,2019,+,-,-,Reinvestor
+1,RELIANCE,2020,+,-,-,Shareholder Returns
+1,RELIANCE,2021,+,-,-,Reinvestor
+1,RELIANCE,2022,+,-,-,Reinvestor
+1,RELIANCE,2023,+,-,-,Reinvestor
+1,RELIANCE,2024,+,-,-,Reinvestor
+2,TCS,2012,+,-,-,Shareholder Returns
+2,TCS,2013,+,-,-,Shareholder Returns
+2,TCS,2014,+,-,-,Shareholder Returns
+2,TCS,2015,+,-,-,Shareholder Returns
+2,TCS,2016,+,-,-,Shareholder Returns
+2,TCS,2017,+,-,-,Shareholder Returns
+2,TCS,2018,+,-,-,Reinvestor
+2,TCS,2019,+,-,-,Shareholder Returns
+2,TCS,2020,+,-,-,Reinvestor
+2,TCS,2021,+,-,-,Shareholder Returns
+2,TCS,2022,+,-,-,Reinvestor
+2,TCS,2023,+,-,-,Reinvestor
+2,TCS,2024,+,-,-,Reinvestor
+3,HDFCBANK,2012,+,-,-,Shareholder Returns
+3,HDFCBANK,2013,+,-,-,Reinvestor
+3,HDFCBANK,2014,+,-,-,Reinvestor
+3,HDFCBANK,2015,+,-,-,Reinvestor
+3,HDFCBANK,2016,+,-,-,Reinvestor
+3,HDFCBANK,2017,+,-,-,Reinvestor
+3,HDFCBANK,2018,+,-,-,Reinvestor
+3,HDFCBANK,2019,+,-,-,Reinvestor
+3,HDFCBANK,2020,+,-,-,Reinvestor
+3,HDFCBANK,2021,+,-,-,Reinvestor
+3,HDFCBANK,2022,+,-,-,Reinvestor
+3,HDFCBANK,2023,+,-,-,Reinvestor
+3,HDFCBANK,2024,+,-,-,Reinvestor
+4,ICICIBANK,2012,+,-,-,Reinvestor
+4,ICICIBANK,2013,+,-,-,Reinvestor
+4,ICICIBANK,2014,+,-,-,Reinvestor
+4,ICICIBANK,2015,+,-,-,Reinvestor
+4,ICICIBANK,2016,+,-,-,Reinvestor
+4,ICICIBANK,2017,+,-,-,Reinvestor
+4,ICICIBANK,2018,+,-,-,Reinvestor
+4,ICICIBANK,2019,+,-,-,Reinvestor
+4,ICICIBANK,2020,+,-,-,Reinvestor
+4,ICICIBANK,2021,+,-,-,Reinvestor
+4,ICICIBANK,2022,+,-,-,Reinvestor
+4,ICICIBANK,2023,+,-,-,Reinvestor
+4,ICICIBANK,2024,+,-,-,Reinvestor
+5,INFY,2012,+,-,-,Shareholder Returns
+5,INFY,2013,+,-,-,Reinvestor
+5,INFY,2014,+,-,-,Reinvestor
+5,INFY,2015,+,-,-,Reinvestor
+5,INFY,2016,+,-,-,Shareholder Returns
+5,INFY,2017,+,-,-,Reinvestor
+5,INFY,2018,+,-,-,Reinvestor
+5,INFY,2019,+,-,-,Reinvestor
+5,INFY,2020,+,-,-,Reinvestor
+5,INFY,2021,+,-,-,Reinvestor
+5,INFY,2022,+,-,-,Reinvestor
+5,INFY,2023,+,-,-,Reinvestor
+5,INFY,2024,+,-,-,Reinvestor
+6,BHARTIARTL,2012,+,-,-,Reinvestor
+6,BHARTIARTL,2013,+,-,-,Reinvestor
+6,BHARTIARTL,2014,+,-,-,Reinvestor
+6,BHARTIARTL,2015,+,-,-,Reinvestor
+6,BHARTIARTL,2016,+,-,-,Reinvestor
+6,BHARTIARTL,2017,+,-,-,Reinvestor
+6,BHARTIARTL,2018,+,-,-,Reinvestor
+6,BHARTIARTL,2019,+,-,-,Reinvestor
+6,BHARTIARTL,2020,+,-,-,Reinvestor
+6,BHARTIARTL,2021,+,-,-,Reinvestor
+6,BHARTIARTL,2022,+,-,-,Reinvestor
+6,BHARTIARTL,2023,+,-,-,Reinvestor
+6,BHARTIARTL,2024,+,-,-,Reinvestor
+7,ITC,2012,+,-,-,Reinvestor
+7,ITC,2013,+,-,-,Shareholder Returns
+7,ITC,2014,+,-,-,Shareholder Returns
+7,ITC,2015,+,-,-,Reinvestor
+7,ITC,2016,+,-,-,Shareholder Returns
+7,ITC,2017,+,-,-,Reinvestor
+7,ITC,2018,+,-,-,Shareholder Returns
+7,ITC,2019,+,-,-,Shareholder Returns
+7,ITC,2020,+,-,-,Shareholder Returns
+7,ITC,2021,+,-,-,Reinvestor
+7,ITC,2022,+,-,-,Reinvestor
+7,ITC,2023,+,-,-,Reinvestor
+7,ITC,2024,+,-,-,Reinvestor
+8,SBIN,2012,+,-,-,Shareholder Returns
+8,SBIN,2013,+,-,-,Shareholder Returns
+8,SBIN,2014,+,-,-,Shareholder Returns
+8,SBIN,2015,+,-,-,Reinvestor
+8,SBIN,2016,+,-,-,Reinvestor
+8,SBIN,2017,+,-,-,Reinvestor
+8,SBIN,2018,+,-,-,Reinvestor
+8,SBIN,2019,+,-,-,Reinvestor
+8,SBIN,2020,+,-,-,Reinvestor
+8,SBIN,2021,+,-,-,Reinvestor
+8,SBIN,2022,+,-,-,Reinvestor
+8,SBIN,2023,+,-,-,Reinvestor
+8,SBIN,2024,+,-,-,Reinvestor
+9,LTIM,2012,+,-,-,Reinvestor
+9,LTIM,2013,+,-,-,Reinvestor
+9,LTIM,2014,+,-,-,Reinvestor
+9,LTIM,2015,+,-,-,Reinvestor
+9,LTIM,2016,+,-,-,Reinvestor
+9,LTIM,2017,+,-,-,Reinvestor
+9,LTIM,2018,+,-,-,Reinvestor
+9,LTIM,2019,+,-,-,Reinvestor
+9,LTIM,2020,+,-,-,Reinvestor
+9,LTIM,2021,+,-,-,Reinvestor
+9,LTIM,2022,+,-,-,Reinvestor
+9,LTIM,2023,+,-,-,Reinvestor
+9,LTIM,2024,+,-,-,Reinvestor
+10,HINDUNILVR,2012,+,-,-,Shareholder Returns
+10,HINDUNILVR,2013,+,-,-,Shareholder Returns
+10,HINDUNILVR,2014,+,-,-,Reinvestor
+10,HINDUNILVR,2015,+,-,-,Reinvestor
+10,HINDUNILVR,2016,+,-,-,Reinvestor
+10,HINDUNILVR,2017,+,-,-,Reinvestor
+10,HINDUNILVR,2018,+,-,-,Reinvestor
+10,HINDUNILVR,2019,+,-,-,Shareholder Returns
+10,HINDUNILVR,2020,+,-,-,Reinvestor
+10,HINDUNILVR,2021,+,-,-,Reinvestor
+10,HINDUNILVR,2022,+,-,-,Reinvestor
+10,HINDUNILVR,2023,+,-,-,Reinvestor
+10,HINDUNILVR,2024,+,-,-,Reinvestor
+11,LT,2012,+,-,-,Reinvestor
+11,LT,2013,+,-,-,Reinvestor
+11,LT,2014,+,-,-,Reinvestor
+11,LT,2015,+,-,-,Reinvestor
+11,LT,2016,+,-,-,Reinvestor
+11,LT,2017,+,-,-,Reinvestor
+11,LT,2018,+,-,-,Reinvestor
+11,LT,2019,+,-,-,Reinvestor
+11,LT,2020,+,-,-,Reinvestor
+11,LT,2021,+,-,-,Reinvestor
+11,LT,2022,+,-,-,Reinvestor
+11,LT,2023,+,-,-,Reinvestor
+11,LT,2024,+,-,-,Reinvestor
+12,BAJFINANCE,2012,+,-,-,Reinvestor
+12,BAJFINANCE,2013,+,-,-,Reinvestor
+12,BAJFINANCE,2014,+,-,-,Reinvestor
+12,BAJFINANCE,2015,+,-,-,Reinvestor
+12,BAJFINANCE,2016,+,-,-,Reinvestor
+12,BAJFINANCE,2017,+,-,-,Reinvestor
+12,BAJFINANCE,2018,+,-,-,Reinvestor
+12,BAJFINANCE,2019,+,-,-,Reinvestor
+12,BAJFINANCE,2020,+,-,-,Reinvestor
+12,BAJFINANCE,2021,+,-,-,Reinvestor
+12,BAJFINANCE,2022,+,-,-,Reinvestor
+12,BAJFINANCE,2023,+,-,-,Reinvestor
+12,BAJFINANCE,2024,+,-,-,Reinvestor
+13,HCLTECH,2012,+,-,-,Shareholder Returns
+13,HCLTECH,2013,+,-,-,Reinvestor
+13,HCLTECH,2014,+,-,-,Shareholder Returns
+13,HCLTECH,2015,+,-,-,Reinvestor
+13,HCLTECH,2016,+,-,-,Reinvestor
+13,HCLTECH,2017,+,-,-,Reinvestor
+13,HCLTECH,2018,+,-,-,Reinvestor
+13,HCLTECH,2019,+,-,-,Shareholder Returns
+13,HCLTECH,2020,+,-,-,Reinvestor
+13,HCLTECH,2021,+,-,-,Reinvestor
+13,HCLTECH,2022,+,-,-,Reinvestor
+13,HCLTECH,2023,+,-,-,Reinvestor
+13,HCLTECH,2024,+,-,-,Reinvestor
+14,MARUTI,2012,+,-,-,Reinvestor
+14,MARUTI,2013,+,-,-,Reinvestor
+14,MARUTI,2014,+,-,-,Reinvestor
+14,MARUTI,2015,+,-,-,Reinvestor
+14,MARUTI,2016,+,-,-,Shareholder Returns
+14,MARUTI,2017,+,-,-,Shareholder Returns
+14,MARUTI,2018,+,-,-,Reinvestor
+14,MARUTI,2019,+,-,-,Reinvestor
+14,MARUTI,2020,+,-,-,Reinvestor
+14,MARUTI,2021,+,-,-,Shareholder Returns
+14,MARUTI,2022,+,-,-,Reinvestor
+14,MARUTI,2023,+,-,-,Reinvestor
+14,MARUTI,2024,+,-,-,Reinvestor
+15,SUNPHARMA,2012,+,-,-,Reinvestor
+15,SUNPHARMA,2013,+,-,-,Shareholder Returns
+15,SUNPHARMA,2014,+,-,-,Reinvestor
+15,SUNPHARMA,2015,+,-,-,Reinvestor
+15,SUNPHARMA,2016,+,-,-,Reinvestor
+15,SUNPHARMA,2017,+,-,-,Reinvestor
+15,SUNPHARMA,2018,+,-,-,Reinvestor
+15,SUNPHARMA,2019,+,-,-,Reinvestor
+15,SUNPHARMA,2020,+,-,-,Reinvestor
+15,SUNPHARMA,2021,+,-,-,Reinvestor
+15,SUNPHARMA,2022,+,-,-,Reinvestor
+15,SUNPHARMA,2023,+,-,-,Reinvestor
+15,SUNPHARMA,2024,+,-,-,Reinvestor
+16,AXISBANK,2012,+,-,-,Shareholder Returns
+16,AXISBANK,2013,+,-,-,Reinvestor
+16,AXISBANK,2014,+,-,-,Reinvestor
+16,AXISBANK,2015,+,-,-,Reinvestor
+16,AXISBANK,2016,+,-,-,Reinvestor
+16,AXISBANK,2017,+,-,-,Reinvestor
+16,AXISBANK,2018,+,-,-,Reinvestor
+16,AXISBANK,2019,+,-,-,Shareholder Returns
+16,AXISBANK,2020,+,-,-,Reinvestor
+16,AXISBANK,2021,+,-,-,Shareholder Returns
+16,AXISBANK,2022,+,-,-,Shareholder Returns
+16,AXISBANK,2023,+,-,-,Reinvestor
+16,AXISBANK,2024,+,-,-,Reinvestor
+17,ADANIENT,2012,+,-,-,Reinvestor
+17,ADANIENT,2013,+,-,-,Reinvestor
+17,ADANIENT,2014,+,-,-,Reinvestor
+17,ADANIENT,2015,+,-,-,Reinvestor
+17,ADANIENT,2016,+,-,-,Reinvestor
+17,ADANIENT,2017,+,-,-,Reinvestor
+17,ADANIENT,2018,+,-,-,Reinvestor
+17,ADANIENT,2019,+,-,-,Reinvestor
+17,ADANIENT,2020,+,-,-,Reinvestor
+17,ADANIENT,2021,+,-,-,Reinvestor
+17,ADANIENT,2022,+,-,-,Reinvestor
+17,ADANIENT,2023,+,-,-,Reinvestor
+17,ADANIENT,2024,+,-,-,Reinvestor
+18,KOTAKBANK,2012,+,-,-,Reinvestor
+18,KOTAKBANK,2013,+,-,-,Reinvestor
+18,KOTAKBANK,2014,+,-,-,Shareholder Returns
+18,KOTAKBANK,2015,+,-,-,Reinvestor
+18,KOTAKBANK,2016,+,-,-,Reinvestor
+18,KOTAKBANK,2017,+,-,-,Shareholder Returns
+18,KOTAKBANK,2018,+,-,-,Reinvestor
+18,KOTAKBANK,2019,+,-,-,Reinvestor
+18,KOTAKBANK,2020,+,-,-,Reinvestor
+18,KOTAKBANK,2021,+,-,-,Reinvestor
+18,KOTAKBANK,2022,+,-,-,Reinvestor
+18,KOTAKBANK,2023,+,-,-,Reinvestor
+18,KOTAKBANK,2024,+,-,-,Reinvestor
+19,TITAN,2012,+,-,-,Reinvestor
+19,TITAN,2013,+,-,-,Reinvestor
+19,TITAN,2014,+,-,-,Reinvestor
+19,TITAN,2015,+,-,-,Reinvestor
+19,TITAN,2016,+,-,-,Reinvestor
+19,TITAN,2017,+,-,-,Reinvestor
+19,TITAN,2018,+,-,-,Reinvestor
+19,TITAN,2019,+,-,-,Reinvestor
+19,TITAN,2020,+,-,-,Reinvestor
+19,TITAN,2021,+,-,-,Reinvestor
+19,TITAN,2022,+,-,-,Reinvestor
+19,TITAN,2023,+,-,-,Reinvestor
+19,TITAN,2024,+,-,-,Reinvestor
+20,ONGC,2012,+,-,-,Shareholder Returns
+20,ONGC,2013,+,-,-,Shareholder Returns
+20,ONGC,2014,+,-,-,Shareholder Returns
+20,ONGC,2015,+,-,-,Shareholder Returns
+20,ONGC,2016,+,-,-,Shareholder Returns
+20,ONGC,2017,+,-,-,Shareholder Returns
+20,ONGC,2018,+,-,-,Shareholder Returns
+20,ONGC,2019,+,-,-,Shareholder Returns
+20,ONGC,2020,+,-,-,Shareholder Returns
+20,ONGC,2021,+,-,-,Reinvestor
+20,ONGC,2022,+,-,-,Shareholder Returns
+20,ONGC,2023,+,-,-,Shareholder Returns
+20,ONGC,2024,+,-,-,Shareholder Returns
+21,TATAMOTORS,2012,+,-,-,Shareholder Returns
+21,TATAMOTORS,2013,+,-,-,Shareholder Returns
+21,TATAMOTORS,2014,+,-,-,Shareholder Returns
+21,TATAMOTORS,2015,+,-,-,Reinvestor
+21,TATAMOTORS,2016,+,-,-,Shareholder Returns
+21,TATAMOTORS,2017,+,-,-,Reinvestor
+21,TATAMOTORS,2018,+,-,-,Shareholder Returns
+21,TATAMOTORS,2019,+,-,-,Shareholder Returns
+21,TATAMOTORS,2020,+,-,-,Shareholder Returns
+21,TATAMOTORS,2021,+,-,-,Shareholder Returns
+21,TATAMOTORS,2022,+,-,-,Shareholder Returns
+21,TATAMOTORS,2023,+,-,-,Reinvestor
+21,TATAMOTORS,2024,+,-,-,Reinvestor
+22,NTPC,2012,+,-,-,Reinvestor
+22,NTPC,2013,+,-,-,Reinvestor
+22,NTPC,2014,+,-,-,Reinvestor
+22,NTPC,2015,+,-,-,Reinvestor
+22,NTPC,2016,+,-,-,Reinvestor
+22,NTPC,2017,+,-,-,Reinvestor
+22,NTPC,2018,+,-,-,Reinvestor
+22,NTPC,2019,+,-,-,Reinvestor
+22,NTPC,2020,+,-,-,Reinvestor
+22,NTPC,2021,+,-,-,Reinvestor
+22,NTPC,2022,+,-,-,Reinvestor
+22,NTPC,2023,+,-,-,Reinvestor
+22,NTPC,2024,+,-,-,Reinvestor
+23,POWERGRID,2012,+,-,-,Reinvestor
+23,POWERGRID,2013,+,-,-,Shareholder Returns
+23,POWERGRID,2014,+,-,-,Shareholder Returns
+23,POWERGRID,2015,+,-,-,Reinvestor
+23,POWERGRID,2016,+,-,-,Reinvestor
+23,POWERGRID,2017,+,-,-,Reinvestor
+23,POWERGRID,2018,+,-,-,Reinvestor
+23,POWERGRID,2019,+,-,-,Reinvestor
+23,POWERGRID,2020,+,-,-,Reinvestor
+23,POWERGRID,2021,+,-,-,Reinvestor
+23,POWERGRID,2022,+,-,-,Reinvestor
+23,POWERGRID,2023,+,-,-,Reinvestor
+23,POWERGRID,2024,+,-,-,Reinvestor
+24,ULTRACEMCO,2012,+,-,-,Shareholder Returns
+24,ULTRACEMCO,2013,+,-,-,Reinvestor
+24,ULTRACEMCO,2014,+,-,-,Reinvestor
+24,ULTRACEMCO,2015,+,-,-,Reinvestor
+24,ULTRACEMCO,2016,+,-,-,Reinvestor
+24,ULTRACEMCO,2017,+,-,-,Reinvestor
+24,ULTRACEMCO,2018,+,-,-,Reinvestor
+24,ULTRACEMCO,2019,+,-,-,Reinvestor
+24,ULTRACEMCO,2020,+,-,-,Reinvestor
+24,ULTRACEMCO,2021,+,-,-,Reinvestor
+24,ULTRACEMCO,2022,+,-,-,Reinvestor
+24,ULTRACEMCO,2023,+,-,-,Reinvestor
+24,ULTRACEMCO,2024,+,-,-,Reinvestor
+25,ASIANPAINT,2012,+,-,-,Shareholder Returns
+25,ASIANPAINT,2013,+,-,-,Shareholder Returns
+25,ASIANPAINT,2014,+,-,-,Reinvestor
+25,ASIANPAINT,2015,+,-,-,Reinvestor
+25,ASIANPAINT,2016,+,-,-,Reinvestor
+25,ASIANPAINT,2017,+,-,-,Reinvestor
+25,ASIANPAINT,2018,+,-,-,Reinvestor
+25,ASIANPAINT,2019,+,-,-,Shareholder Returns
+25,ASIANPAINT,2020,+,-,-,Reinvestor
+25,ASIANPAINT,2021,+,-,-,Shareholder Returns
+25,ASIANPAINT,2022,+,-,-,Reinvestor
+25,ASIANPAINT,2023,+,-,-,Reinvestor
+25,ASIANPAINT,2024,+,-,-,Reinvestor
+26,COALINDIA,2012,+,-,-,Shareholder Returns
+26,COALINDIA,2013,+,-,-,Reinvestor
+26,COALINDIA,2014,+,-,-,Shareholder Returns
+26,COALINDIA,2015,+,-,-,Reinvestor
+26,COALINDIA,2016,+,-,-,Reinvestor
+26,COALINDIA,2017,+,-,-,Reinvestor
+26,COALINDIA,2018,+,-,-,Reinvestor
+26,COALINDIA,2019,+,-,-,Reinvestor
+26,COALINDIA,2020,+,-,-,Reinvestor
+26,COALINDIA,2021,+,-,-,Reinvestor
+26,COALINDIA,2022,+,-,-,Reinvestor
+26,COALINDIA,2023,+,-,-,Reinvestor
+26,COALINDIA,2024,+,-,-,Reinvestor
+27,BAJAJFINSV,2012,+,-,-,Reinvestor
+27,BAJAJFINSV,2013,+,-,-,Reinvestor
+27,BAJAJFINSV,2014,+,-,-,Reinvestor
+27,BAJAJFINSV,2015,+,-,-,Reinvestor
+27,BAJAJFINSV,2016,+,-,-,Reinvestor
+27,BAJAJFINSV,2017,+,-,-,Reinvestor
+27,BAJAJFINSV,2018,+,-,-,Reinvestor
+27,BAJAJFINSV,2019,+,-,-,Reinvestor
+27,BAJAJFINSV,2020,+,-,-,Reinvestor
+27,BAJAJFINSV,2021,+,-,-,Reinvestor
+27,BAJAJFINSV,2022,+,-,-,Reinvestor
+27,BAJAJFINSV,2023,+,-,-,Reinvestor
+27,BAJAJFINSV,2024,+,-,-,Reinvestor
+28,M_M,2012,+,-,-,Shareholder Returns
+28,M_M,2013,+,-,-,Reinvestor
+28,M_M,2014,+,-,-,Reinvestor
+28,M_M,2015,+,-,-,Reinvestor
+28,M_M,2016,+,-,-,Reinvestor
+28,M_M,2017,+,-,-,Reinvestor
+28,M_M,2018,+,-,-,Reinvestor
+28,M_M,2019,+,-,-,Reinvestor
+28,M_M,2020,+,-,-,Reinvestor
+28,M_M,2021,+,-,-,Reinvestor
+28,M_M,2022,+,-,-,Reinvestor
+28,M_M,2023,+,-,-,Reinvestor
+28,M_M,2024,+,-,-,Reinvestor
+29,JSWSTEEL,2012,+,-,-,Shareholder Returns
+29,JSWSTEEL,2013,+,-,-,Reinvestor
+29,JSWSTEEL,2014,+,-,-,Reinvestor
+29,JSWSTEEL,2015,+,-,-,Reinvestor
+29,JSWSTEEL,2016,+,-,-,Reinvestor
+29,JSWSTEEL,2017,+,-,-,Reinvestor
+29,JSWSTEEL,2018,+,-,-,Reinvestor
+29,JSWSTEEL,2019,+,-,-,Reinvestor
+29,JSWSTEEL,2020,+,-,-,Reinvestor
+29,JSWSTEEL,2021,+,-,-,Reinvestor
+29,JSWSTEEL,2022,+,-,-,Reinvestor
+29,JSWSTEEL,2023,+,-,-,Reinvestor
+29,JSWSTEEL,2024,+,-,-,Reinvestor
+30,TATASTEEL,2012,+,-,-,Reinvestor
+30,TATASTEEL,2013,+,-,-,Reinvestor
+30,TATASTEEL,2014,+,-,-,Reinvestor
+30,TATASTEEL,2015,+,-,-,Reinvestor
+30,TATASTEEL,2016,+,-,-,Reinvestor
+30,TATASTEEL,2017,+,-,-,Reinvestor
+30,TATASTEEL,2018,+,-,-,Reinvestor
+30,TATASTEEL,2019,+,-,-,Reinvestor
+30,TATASTEEL,2020,+,-,-,Reinvestor
+30,TATASTEEL,2021,+,-,-,Reinvestor
+30,TATASTEEL,2022,+,-,-,Reinvestor
+30,TATASTEEL,2023,+,-,-,Reinvestor
+30,TATASTEEL,2024,+,-,-,Reinvestor
+31,ADANIPORTS,2012,+,-,-,Reinvestor
+31,ADANIPORTS,2013,+,-,-,Reinvestor
+31,ADANIPORTS,2014,+,-,-,Shareholder Returns
+31,ADANIPORTS,2015,+,-,-,Reinvestor
+31,ADANIPORTS,2016,+,-,-,Shareholder Returns
+31,ADANIPORTS,2017,+,-,-,Reinvestor
+31,ADANIPORTS,2018,+,-,-,Reinvestor
+31,ADANIPORTS,2019,+,-,-,Reinvestor
+31,ADANIPORTS,2020,+,-,-,Reinvestor
+31,ADANIPORTS,2021,+,-,-,Reinvestor
+31,ADANIPORTS,2022,+,-,-,Reinvestor
+31,ADANIPORTS,2023,+,-,-,Reinvestor
+31,ADANIPORTS,2024,+,-,-,Reinvestor
+32,SIEMENS,2012,+,-,-,Reinvestor
+32,SIEMENS,2013,+,-,-,Shareholder Returns
+32,SIEMENS,2014,+,-,-,Reinvestor
+32,SIEMENS,2015,+,-,-,Reinvestor
+32,SIEMENS,2016,+,-,-,Reinvestor
+32,SIEMENS,2017,+,-,-,Reinvestor
+32,SIEMENS,2018,+,-,-,Reinvestor
+32,SIEMENS,2019,+,-,-,Reinvestor
+32,SIEMENS,2020,+,-,-,Reinvestor
+32,SIEMENS,2021,+,-,-,Reinvestor
+32,SIEMENS,2022,+,-,-,Reinvestor
+32,SIEMENS,2023,+,-,-,Reinvestor
+32,SIEMENS,2024,+,-,-,Reinvestor
+33,GRASIM,2012,+,-,-,Reinvestor
+33,GRASIM,2013,+,-,-,Reinvestor
+33,GRASIM,2014,+,-,-,Reinvestor
+33,GRASIM,2015,+,-,-,Reinvestor
+33,GRASIM,2016,+,-,-,Shareholder Returns
+33,GRASIM,2017,+,-,-,Reinvestor
+33,GRASIM,2018,+,-,-,Reinvestor
+33,GRASIM,2019,+,-,-,Reinvestor
+33,GRASIM,2020,+,-,-,Reinvestor
+33,GRASIM,2021,+,-,-,Reinvestor
+33,GRASIM,2022,+,-,-,Reinvestor
+33,GRASIM,2023,+,-,-,Reinvestor
+33,GRASIM,2024,+,-,-,Reinvestor
+34,PIDILITIND,2012,+,-,-,Shareholder Returns
+34,PIDILITIND,2013,+,-,-,Reinvestor
+34,PIDILITIND,2014,+,-,-,Reinvestor
+34,PIDILITIND,2015,+,-,-,Reinvestor
+34,PIDILITIND,2016,+,-,-,Reinvestor
+34,PIDILITIND,2017,+,-,-,Reinvestor
+34,PIDILITIND,2018,+,-,-,Reinvestor
+34,PIDILITIND,2019,+,-,-,Reinvestor
+34,PIDILITIND,2020,+,-,-,Reinvestor
+34,PIDILITIND,2021,+,-,-,Reinvestor
+34,PIDILITIND,2022,+,-,-,Reinvestor
+34,PIDILITIND,2023,+,-,-,Reinvestor
+34,PIDILITIND,2024,+,-,-,Reinvestor
+35,BEL,2012,+,-,-,Reinvestor
+35,BEL,2013,+,-,-,Reinvestor
+35,BEL,2014,+,-,-,Shareholder Returns
+35,BEL,2015,+,-,-,Reinvestor
+35,BEL,2016,+,-,-,Reinvestor
+35,BEL,2017,+,-,-,Reinvestor
+35,BEL,2018,+,-,-,Reinvestor
+35,BEL,2019,+,-,-,Reinvestor
+35,BEL,2020,+,-,-,Reinvestor
+35,BEL,2021,+,-,-,Reinvestor
+35,BEL,2022,+,-,-,Reinvestor
+35,BEL,2023,+,-,-,Reinvestor
+35,BEL,2024,+,-,-,Reinvestor
+36,IOC,2012,+,-,-,Shareholder Returns
+36,IOC,2013,+,-,-,Shareholder Returns
+36,IOC,2014,+,-,-,Reinvestor
+36,IOC,2015,+,-,-,Reinvestor
+36,IOC,2016,+,-,-,Reinvestor
+36,IOC,2017,+,-,-,Reinvestor
+36,IOC,2018,+,-,-,Reinvestor
+36,IOC,2019,+,-,-,Reinvestor
+36,IOC,2020,+,-,-,Reinvestor
+36,IOC,2021,+,-,-,Reinvestor
+36,IOC,2022,+,-,-,Reinvestor
+36,IOC,2023,+,-,-,Reinvestor
+36,IOC,2024,+,-,-,Reinvestor
+37,HAL,2012,+,-,-,Reinvestor
+37,HAL,2013,+,-,-,Reinvestor
+37,HAL,2014,+,-,-,Reinvestor
+37,HAL,2015,+,-,-,Reinvestor
+37,HAL,2016,+,-,-,Reinvestor
+37,HAL,2017,+,-,-,Reinvestor
+37,HAL,2018,+,-,-,Reinvestor
+37,HAL,2019,+,-,-,Reinvestor
+37,HAL,2020,+,-,-,Reinvestor
+37,HAL,2021,+,-,-,Reinvestor
+37,HAL,2022,+,-,-,Reinvestor
+37,HAL,2023,+,-,-,Reinvestor
+37,HAL,2024,+,-,-,Reinvestor
+38,VBL,2012,+,-,-,Shareholder Returns
+38,VBL,2013,+,-,-,Reinvestor
+38,VBL,2014,+,-,-,Reinvestor
+38,VBL,2015,+,-,-,Reinvestor
+38,VBL,2016,+,-,-,Reinvestor
+38,VBL,2017,+,-,-,Reinvestor
+38,VBL,2018,+,-,-,Reinvestor
+38,VBL,2019,+,-,-,Reinvestor
+38,VBL,2020,+,-,-,Reinvestor
+38,VBL,2021,+,-,-,Reinvestor
+38,VBL,2022,+,-,-,Reinvestor
+38,VBL,2023,+,-,-,Reinvestor
+38,VBL,2024,+,-,-,Reinvestor
+39,INDUSINDBK,2012,+,-,-,Shareholder Returns
+39,INDUSINDBK,2013,+,-,-,Reinvestor
+39,INDUSINDBK,2014,+,-,-,Reinvestor
+39,INDUSINDBK,2015,+,-,-,Reinvestor
+39,INDUSINDBK,2016,+,-,-,Reinvestor
+39,INDUSINDBK,2017,+,-,-,Reinvestor
+39,INDUSINDBK,2018,+,-,-,Reinvestor
+39,INDUSINDBK,2019,+,-,-,Reinvestor
+39,INDUSINDBK,2020,+,-,-,Reinvestor
+39,INDUSINDBK,2021,+,-,-,Reinvestor
+39,INDUSINDBK,2022,+,-,-,Reinvestor
+39,INDUSINDBK,2023,+,-,-,Reinvestor
+39,INDUSINDBK,2024,+,-,-,Reinvestor
+40,BPCL,2012,+,-,-,Shareholder Returns
+40,BPCL,2013,+,-,-,Shareholder Returns
+40,BPCL,2014,+,-,-,Reinvestor
+40,BPCL,2015,+,-,-,Reinvestor
+40,BPCL,2016,+,-,-,Shareholder Returns
+40,BPCL,2017,+,-,-,Reinvestor
+40,BPCL,2018,+,-,-,Reinvestor
+40,BPCL,2019,+,-,-,Reinvestor
+40,BPCL,2020,+,-,-,Reinvestor
+40,BPCL,2021,+,-,-,Reinvestor
+40,BPCL,2022,+,-,-,Reinvestor
+40,BPCL,2023,+,-,-,Reinvestor
+40,BPCL,2024,+,-,-,Shareholder Returns
+41,NESTLEIND,2012,+,-,-,Shareholder Returns
+41,NESTLEIND,2013,+,-,-,Shareholder Returns
+41,NESTLEIND,2014,+,-,-,Shareholder Returns
+41,NESTLEIND,2015,+,-,-,Shareholder Returns
+41,NESTLEIND,2016,+,-,-,Reinvestor
+41,NESTLEIND,2017,+,-,-,Reinvestor
+41,NESTLEIND,2018,+,-,-,Shareholder Returns
+41,NESTLEIND,2019,+,-,-,Reinvestor
+41,NESTLEIND,2020,+,-,-,Shareholder Returns
+41,NESTLEIND,2021,+,-,-,Reinvestor
+41,NESTLEIND,2022,+,-,-,Reinvestor
+41,NESTLEIND,2023,+,-,-,Reinvestor
+41,NESTLEIND,2024,+,-,-,Reinvestor
+42,GODREJCP,2012,+,-,-,Reinvestor
+42,GODREJCP,2013,+,-,-,Reinvestor
+42,GODREJCP,2014,+,-,-,Reinvestor
+42,GODREJCP,2015,+,-,-,Reinvestor
+42,GODREJCP,2016,+,-,-,Reinvestor
+42,GODREJCP,2017,+,-,-,Reinvestor
+42,GODREJCP,2018,+,-,-,Reinvestor
+42,GODREJCP,2019,+,-,-,Reinvestor
+42,GODREJCP,2020,+,-,-,Reinvestor
+42,GODREJCP,2021,+,-,-,Reinvestor
+42,GODREJCP,2022,+,-,-,Reinvestor
+42,GODREJCP,2023,+,-,-,Reinvestor
+42,GODREJCP,2024,+,-,-,Reinvestor
+43,DLF,2012,+,-,-,Reinvestor
+43,DLF,2013,+,-,-,Reinvestor
+43,DLF,2014,+,-,-,Reinvestor
+43,DLF,2015,+,-,-,Reinvestor
+43,DLF,2016,+,-,-,Reinvestor
+43,DLF,2017,+,-,-,Reinvestor
+43,DLF,2018,+,-,-,Reinvestor
+43,DLF,2019,+,-,-,Reinvestor
+43,DLF,2020,+,-,-,Reinvestor
+43,DLF,2021,+,-,-,Reinvestor
+43,DLF,2022,+,-,-,Reinvestor
+43,DLF,2023,+,-,-,Reinvestor
+43,DLF,2024,+,-,-,Reinvestor
+44,TRENT,2012,+,-,-,Reinvestor
+44,TRENT,2013,+,-,-,Reinvestor
+44,TRENT,2014,+,-,-,Reinvestor
+44,TRENT,2015,+,-,-,Reinvestor
+44,TRENT,2016,+,-,-,Reinvestor
+44,TRENT,2017,+,-,-,Reinvestor
+44,TRENT,2018,+,-,-,Reinvestor
+44,TRENT,2019,+,-,-,Reinvestor
+44,TRENT,2020,+,-,-,Reinvestor
+44,TRENT,2021,+,-,-,Reinvestor
+44,TRENT,2022,+,-,-,Reinvestor
+44,TRENT,2023,+,-,-,Reinvestor
+44,TRENT,2024,+,-,-,Reinvestor
+45,ZOMATO,2012,+,-,-,Reinvestor
+45,ZOMATO,2013,+,-,-,Shareholder Returns
+45,ZOMATO,2014,+,-,-,Shareholder Returns
+45,ZOMATO,2015,+,-,-,Reinvestor
+45,ZOMATO,2016,+,-,-,Reinvestor
+45,ZOMATO,2017,+,-,-,Reinvestor
+45,ZOMATO,2018,+,-,-,Reinvestor
+45,ZOMATO,2019,+,-,-,Reinvestor
+45,ZOMATO,2020,+,-,-,Shareholder Returns
+45,ZOMATO,2021,+,-,-,Reinvestor
+45,ZOMATO,2022,+,-,-,Reinvestor
+45,ZOMATO,2023,+,-,-,Reinvestor
+45,ZOMATO,2024,+,-,-,Reinvestor
+46,CHOLAFIN,2012,+,-,-,Reinvestor
+46,CHOLAFIN,2013,+,-,-,Reinvestor
+46,CHOLAFIN,2014,+,-,-,Reinvestor
+46,CHOLAFIN,2015,+,-,-,Reinvestor
+46,CHOLAFIN,2016,+,-,-,Reinvestor
+46,CHOLAFIN,2017,+,-,-,Reinvestor
+46,CHOLAFIN,2018,+,-,-,Reinvestor
+46,CHOLAFIN,2019,+,-,-,Reinvestor
+46,CHOLAFIN,2020,+,-,-,Reinvestor
+46,CHOLAFIN,2021,+,-,-,Reinvestor
+46,CHOLAFIN,2022,+,-,-,Reinvestor
+46,CHOLAFIN,2023,+,-,-,Reinvestor
+46,CHOLAFIN,2024,+,-,-,Reinvestor
+47,GAIL,2012,+,-,-,Shareholder Returns
+47,GAIL,2013,+,-,-,Shareholder Returns
+47,GAIL,2014,+,-,-,Reinvestor
+47,GAIL,2015,+,-,-,Reinvestor
+47,GAIL,2016,+,-,-,Shareholder Returns
+47,GAIL,2017,+,-,-,Reinvestor
+47,GAIL,2018,+,-,-,Reinvestor
+47,GAIL,2019,+,-,-,Reinvestor
+47,GAIL,2020,+,-,-,Reinvestor
+47,GAIL,2021,+,-,-,Reinvestor
+47,GAIL,2022,+,-,-,Reinvestor
+47,GAIL,2023,+,-,-,Reinvestor
+47,GAIL,2024,+,-,-,Reinvestor
+48,DIVISLAB,2012,+,-,-,Reinvestor
+48,DIVISLAB,2013,+,-,-,Reinvestor
+48,DIVISLAB,2014,+,-,-,Reinvestor
+48,DIVISLAB,2015,+,-,-,Reinvestor
+48,DIVISLAB,2016,+,-,-,Reinvestor
+48,DIVISLAB,2017,+,-,-,Reinvestor
+48,DIVISLAB,2018,+,-,-,Reinvestor
+48,DIVISLAB,2019,+,-,-,Reinvestor
+48,DIVISLAB,2020,+,-,-,Reinvestor
+48,DIVISLAB,2021,+,-,-,Reinvestor
+48,DIVISLAB,2022,+,-,-,Reinvestor
+48,DIVISLAB,2023,+,-,-,Reinvestor
+48,DIVISLAB,2024,+,-,-,Reinvestor
+49,HDFCLIFE,2012,+,-,-,Reinvestor
+49,HDFCLIFE,2013,+,-,-,Reinvestor
+49,HDFCLIFE,2014,+,-,-,Reinvestor
+49,HDFCLIFE,2015,+,-,-,Reinvestor
+49,HDFCLIFE,2016,+,-,-,Reinvestor
+49,HDFCLIFE,2017,+,-,-,Reinvestor
+49,HDFCLIFE,2018,+,-,-,Reinvestor
+49,HDFCLIFE,2019,+,-,-,Reinvestor
+49,HDFCLIFE,2020,+,-,-,Reinvestor
+49,HDFCLIFE,2021,+,-,-,Reinvestor
+49,HDFCLIFE,2022,+,-,-,Reinvestor
+49,HDFCLIFE,2023,+,-,-,Reinvestor
+49,HDFCLIFE,2024,+,-,-,Reinvestor
+50,BRITANNIA,2012,+,-,-,Reinvestor
+50,BRITANNIA,2013,+,-,-,Reinvestor
+50,BRITANNIA,2014,+,-,-,Reinvestor
+50,BRITANNIA,2015,+,-,-,Reinvestor
+50,BRITANNIA,2016,+,-,-,Reinvestor
+50,BRITANNIA,2017,+,-,-,Reinvestor
+50,BRITANNIA,2018,+,-,-,Reinvestor
+50,BRITANNIA,2019,+,-,-,Reinvestor
+50,BRITANNIA,2020,+,-,-,Reinvestor
+50,BRITANNIA,2021,+,-,-,Reinvestor
+50,BRITANNIA,2022,+,-,-,Reinvestor
+50,BRITANNIA,2023,+,-,-,Reinvestor
+50,BRITANNIA,2024,+,-,-,Reinvestor
+51,CIPLA,2012,+,-,-,Reinvestor
+51,CIPLA,2013,+,-,-,Shareholder Returns
+51,CIPLA,2014,+,-,-,Shareholder Returns
+51,CIPLA,2015,+,-,-,Shareholder Returns
+51,CIPLA,2016,+,-,-,Shareholder Returns
+51,CIPLA,2017,+,-,-,Reinvestor
+51,CIPLA,2018,+,-,-,Reinvestor
+51,CIPLA,2019,+,-,-,Reinvestor
+51,CIPLA,2020,+,-,-,Reinvestor
+51,CIPLA,2021,+,-,-,Shareholder Returns
+51,CIPLA,2022,+,-,-,Shareholder Returns
+51,CIPLA,2023,+,-,-,Reinvestor
+51,CIPLA,2024,+,-,-,Shareholder Returns
+52,INTERGLOBE,2012,+,-,-,Reinvestor
+52,INTERGLOBE,2013,+,-,-,Shareholder Returns
+52,INTERGLOBE,2014,+,-,-,Reinvestor
+52,INTERGLOBE,2015,+,-,-,Reinvestor
+52,INTERGLOBE,2016,+,-,-,Reinvestor
+52,INTERGLOBE,2017,+,-,-,Shareholder Returns
+52,INTERGLOBE,2018,+,-,-,Reinvestor
+52,INTERGLOBE,2019,+,-,-,Reinvestor
+52,INTERGLOBE,2020,+,-,-,Reinvestor
+52,INTERGLOBE,2021,+,-,-,Reinvestor
+52,INTERGLOBE,2022,+,-,-,Reinvestor
+52,INTERGLOBE,2023,+,-,-,Reinvestor
+52,INTERGLOBE,2024,+,-,-,Reinvestor
+53,SHRIRAMFIN,2012,+,-,-,Reinvestor
+53,SHRIRAMFIN,2013,+,-,-,Reinvestor
+53,SHRIRAMFIN,2014,+,-,-,Reinvestor
+53,SHRIRAMFIN,2015,+,-,-,Reinvestor
+53,SHRIRAMFIN,2016,+,-,-,Reinvestor
+53,SHRIRAMFIN,2017,+,-,-,Reinvestor
+53,SHRIRAMFIN,2018,+,-,-,Reinvestor
+53,SHRIRAMFIN,2019,+,-,-,Reinvestor
+53,SHRIRAMFIN,2020,+,-,-,Reinvestor
+53,SHRIRAMFIN,2021,+,-,-,Reinvestor
+53,SHRIRAMFIN,2022,+,-,-,Reinvestor
+53,SHRIRAMFIN,2023,+,-,-,Reinvestor
+53,SHRIRAMFIN,2024,+,-,-,Reinvestor
+54,BAJAJ-AUTO,2012,+,-,-,Reinvestor
+54,BAJAJ-AUTO,2013,+,-,-,Reinvestor
+54,BAJAJ-AUTO,2014,+,-,-,Reinvestor
+54,BAJAJ-AUTO,2015,+,-,-,Reinvestor
+54,BAJAJ-AUTO,2016,+,-,-,Reinvestor
+54,BAJAJ-AUTO,2017,+,-,-,Reinvestor
+54,BAJAJ-AUTO,2018,+,-,-,Reinvestor
+54,BAJAJ-AUTO,2019,+,-,-,Reinvestor
+54,BAJAJ-AUTO,2020,+,-,-,Reinvestor
+54,BAJAJ-AUTO,2021,+,-,-,Reinvestor
+54,BAJAJ-AUTO,2022,+,-,-,Reinvestor
+54,BAJAJ-AUTO,2023,+,-,-,Reinvestor
+54,BAJAJ-AUTO,2024,+,-,-,Reinvestor
+55,ICICIPRULI,2012,+,-,-,Reinvestor
+55,ICICIPRULI,2013,+,-,-,Reinvestor
+55,ICICIPRULI,2014,+,-,-,Reinvestor
+55,ICICIPRULI,2015,+,-,-,Reinvestor
+55,ICICIPRULI,2016,+,-,-,Reinvestor
+55,ICICIPRULI,2017,+,-,-,Reinvestor
+55,ICICIPRULI,2018,+,-,-,Reinvestor
+55,ICICIPRULI,2019,+,-,-,Reinvestor
+55,ICICIPRULI,2020,+,-,-,Reinvestor
+55,ICICIPRULI,2021,+,-,-,Reinvestor
+55,ICICIPRULI,2022,+,-,-,Reinvestor
+55,ICICIPRULI,2023,+,-,-,Reinvestor
+55,ICICIPRULI,2024,+,-,-,Reinvestor
+56,TECHM,2012,+,-,-,Reinvestor
+56,TECHM,2013,+,-,-,Reinvestor
+56,TECHM,2014,+,-,-,Reinvestor
+56,TECHM,2015,+,-,-,Reinvestor
+56,TECHM,2016,+,-,-,Reinvestor
+56,TECHM,2017,+,-,-,Reinvestor
+56,TECHM,2018,+,-,-,Reinvestor
+56,TECHM,2019,+,-,-,Reinvestor
+56,TECHM,2020,+,-,-,Reinvestor
+56,TECHM,2021,+,-,-,Reinvestor
+56,TECHM,2022,+,-,-,Reinvestor
+56,TECHM,2023,+,-,-,Reinvestor
+56,TECHM,2024,+,-,-,Reinvestor
+57,HEROMOTOCO,2012,+,-,-,Shareholder Returns
+57,HEROMOTOCO,2013,+,-,-,Shareholder Returns
+57,HEROMOTOCO,2014,+,-,-,Shareholder Returns
+57,HEROMOTOCO,2015,+,-,-,Shareholder Returns
+57,HEROMOTOCO,2016,+,-,-,Shareholder Returns
+57,HEROMOTOCO,2017,+,-,-,Shareholder Returns
+57,HEROMOTOCO,2018,+,-,-,Reinvestor
+57,HEROMOTOCO,2019,+,-,-,Shareholder Returns
+57,HEROMOTOCO,2020,+,-,-,Shareholder Returns
+57,HEROMOTOCO,2021,+,-,-,Shareholder Returns
+57,HEROMOTOCO,2022,+,-,-,Shareholder Returns
+57,HEROMOTOCO,2023,+,-,-,Reinvestor
+57,HEROMOTOCO,2024,+,-,-,Shareholder Returns
+58,EICHERMOT,2012,+,-,-,Reinvestor
+58,EICHERMOT,2013,+,-,-,Shareholder Returns
+58,EICHERMOT,2014,+,-,-,Reinvestor
+58,EICHERMOT,2015,+,-,-,Shareholder Returns
+58,EICHERMOT,2016,+,-,-,Shareholder Returns
+58,EICHERMOT,2017,+,-,-,Reinvestor
+58,EICHERMOT,2018,+,-,-,Shareholder Returns
+58,EICHERMOT,2019,+,-,-,Reinvestor
+58,EICHERMOT,2020,+,-,-,Shareholder Returns
+58,EICHERMOT,2021,+,-,-,Shareholder Returns
+58,EICHERMOT,2022,+,-,-,Shareholder Returns
+58,EICHERMOT,2023,+,-,-,Reinvestor
+58,EICHERMOT,2024,+,-,-,Reinvestor
+59,APOLLOHOSP,2012,+,-,-,Shareholder Returns
+59,APOLLOHOSP,2013,+,-,-,Reinvestor
+59,APOLLOHOSP,2014,+,-,-,Shareholder Returns
+59,APOLLOHOSP,2015,+,-,-,Reinvestor
+59,APOLLOHOSP,2016,+,-,-,Reinvestor
+59,APOLLOHOSP,2017,+,-,-,Reinvestor
+59,APOLLOHOSP,2018,+,-,-,Shareholder Returns
+59,APOLLOHOSP,2019,+,-,-,Reinvestor
+59,APOLLOHOSP,2020,+,-,-,Reinvestor
+59,APOLLOHOSP,2021,+,-,-,Reinvestor
+59,APOLLOHOSP,2022,+,-,-,Reinvestor
+59,APOLLOHOSP,2023,+,-,-,Reinvestor
+59,APOLLOHOSP,2024,+,-,-,Reinvestor
+60,DRREDDY,2012,+,-,-,Shareholder Returns
+60,DRREDDY,2013,+,-,-,Shareholder Returns
+60,DRREDDY,2014,+,-,-,Shareholder Returns
+60,DRREDDY,2015,+,-,-,Shareholder Returns
+60,DRREDDY,2016,+,-,-,Reinvestor
+60,DRREDDY,2017,+,-,-,Shareholder Returns
+60,DRREDDY,2018,+,-,-,Shareholder Returns
+60,DRREDDY,2019,+,-,-,Reinvestor
+60,DRREDDY,2020,+,-,-,Shareholder Returns
+60,DRREDDY,2021,+,-,-,Shareholder Returns
+60,DRREDDY,2022,+,-,-,Reinvestor
+60,DRREDDY,2023,+,-,-,Reinvestor
+60,DRREDDY,2024,+,-,-,Reinvestor
+61,VARUNBEV,2012,+,-,-,Shareholder Returns
+61,VARUNBEV,2013,+,-,-,Reinvestor
+61,VARUNBEV,2014,+,-,-,Shareholder Returns
+61,VARUNBEV,2015,+,-,-,Shareholder Returns
+61,VARUNBEV,2016,+,-,-,Shareholder Returns
+61,VARUNBEV,2017,+,-,-,Shareholder Returns
+61,VARUNBEV,2018,+,-,-,Reinvestor
+61,VARUNBEV,2019,+,-,-,Shareholder Returns
+61,VARUNBEV,2020,+,-,-,Reinvestor
+61,VARUNBEV,2021,+,-,-,Reinvestor
+61,VARUNBEV,2022,+,-,-,Reinvestor
+61,VARUNBEV,2023,+,-,-,Reinvestor
+61,VARUNBEV,2024,+,-,-,Reinvestor
+62,AMBUJACEM,2012,+,-,-,Reinvestor
+62,AMBUJACEM,2013,+,-,-,Reinvestor
+62,AMBUJACEM,2014,+,-,-,Shareholder Returns
+62,AMBUJACEM,2015,+,-,-,Reinvestor
+62,AMBUJACEM,2016,+,-,-,Reinvestor
+62,AMBUJACEM,2017,+,-,-,Reinvestor
+62,AMBUJACEM,2018,+,-,-,Reinvestor
+62,AMBUJACEM,2019,+,-,-,Reinvestor
+62,AMBUJACEM,2020,+,-,-,Reinvestor
+62,AMBUJACEM,2021,+,-,-,Reinvestor
+62,AMBUJACEM,2022,+,-,-,Reinvestor
+62,AMBUJACEM,2023,+,-,-,Reinvestor
+62,AMBUJACEM,2024,+,-,-,Reinvestor
+63,TATAELXSI,2012,+,-,-,Shareholder Returns
+63,TATAELXSI,2013,+,-,-,Shareholder Returns
+63,TATAELXSI,2014,+,-,-,Shareholder Returns
+63,TATAELXSI,2015,+,-,-,Shareholder Returns
+63,TATAELXSI,2016,+,-,-,Shareholder Returns
+63,TATAELXSI,2017,+,-,-,Reinvestor
+63,TATAELXSI,2018,+,-,-,Shareholder Returns
+63,TATAELXSI,2019,+,-,-,Shareholder Returns
+63,TATAELXSI,2020,+,-,-,Shareholder Returns
+63,TATAELXSI,2021,+,-,-,Reinvestor
+63,TATAELXSI,2022,+,-,-,Reinvestor
+63,TATAELXSI,2023,+,-,-,Reinvestor
+63,TATAELXSI,2024,+,-,-,Reinvestor
+64,ABB,2012,+,-,-,Shareholder Returns
+64,ABB,2013,+,-,-,Shareholder Returns
+64,ABB,2014,+,-,-,Shareholder Returns
+64,ABB,2015,+,-,-,Shareholder Returns
+64,ABB,2016,+,-,-,Reinvestor
+64,ABB,2017,+,-,-,Shareholder Returns
+64,ABB,2018,+,-,-,Shareholder Returns
+64,ABB,2019,+,-,-,Shareholder Returns
+64,ABB,2020,+,-,-,Shareholder Returns
+64,ABB,2021,+,-,-,Shareholder Returns
+64,ABB,2022,+,-,-,Shareholder Returns
+64,ABB,2023,+,-,-,Shareholder Returns
+64,ABB,2024,+,-,-,Reinvestor
+65,MOTHERSON,2012,+,-,-,Shareholder Returns
+65,MOTHERSON,2013,+,-,-,Shareholder Returns
+65,MOTHERSON,2014,+,-,-,Reinvestor
+65,MOTHERSON,2015,+,-,-,Reinvestor
+65,MOTHERSON,2016,+,-,-,Reinvestor
+65,MOTHERSON,2017,+,-,-,Reinvestor
+65,MOTHERSON,2018,+,-,-,Reinvestor
+65,MOTHERSON,2019,+,-,-,Reinvestor
+65,MOTHERSON,2020,+,-,-,Shareholder Returns
+65,MOTHERSON,2021,+,-,-,Reinvestor
+65,MOTHERSON,2022,+,-,-,Reinvestor
+65,MOTHERSON,2023,+,-,-,Reinvestor
+65,MOTHERSON,2024,+,-,-,Shareholder Returns
+66,BOSCHLTD,2012,+,-,-,Shareholder Returns
+66,BOSCHLTD,2013,+,-,-,Reinvestor
+66,BOSCHLTD,2014,+,-,-,Shareholder Returns
+66,BOSCHLTD,2015,+,-,-,Reinvestor
+66,BOSCHLTD,2016,+,-,-,Reinvestor
+66,BOSCHLTD,2017,+,-,-,Shareholder Returns
+66,BOSCHLTD,2018,+,-,-,Shareholder Returns
+66,BOSCHLTD,2019,+,-,-,Reinvestor
+66,BOSCHLTD,2020,+,-,-,Reinvestor
+66,BOSCHLTD,2021,+,-,-,Reinvestor
+66,BOSCHLTD,2022,+,-,-,Reinvestor
+66,BOSCHLTD,2023,+,-,-,Reinvestor
+66,BOSCHLTD,2024,+,-,-,Reinvestor
+67,INDIGO,2012,+,-,-,Reinvestor
+67,INDIGO,2013,+,-,-,Reinvestor
+67,INDIGO,2014,+,-,-,Reinvestor
+67,INDIGO,2015,+,-,-,Reinvestor
+67,INDIGO,2016,+,-,-,Reinvestor
+67,INDIGO,2017,+,-,-,Reinvestor
+67,INDIGO,2018,+,-,-,Reinvestor
+67,INDIGO,2019,+,-,-,Reinvestor
+67,INDIGO,2020,+,-,-,Reinvestor
+67,INDIGO,2021,+,-,-,Reinvestor
+67,INDIGO,2022,+,-,-,Reinvestor
+67,INDIGO,2023,+,-,-,Reinvestor
+67,INDIGO,2024,+,-,-,Reinvestor
+68,SRF,2012,+,-,-,Reinvestor
+68,SRF,2013,+,-,-,Reinvestor
+68,SRF,2014,+,-,-,Reinvestor
+68,SRF,2015,+,-,-,Reinvestor
+68,SRF,2016,+,-,-,Reinvestor
+68,SRF,2017,+,-,-,Reinvestor
+68,SRF,2018,+,-,-,Reinvestor
+68,SRF,2019,+,-,-,Reinvestor
+68,SRF,2020,+,-,-,Reinvestor
+68,SRF,2021,+,-,-,Reinvestor
+68,SRF,2022,+,-,-,Reinvestor
+68,SRF,2023,+,-,-,Reinvestor
+68,SRF,2024,+,-,-,Reinvestor
+69,POLYCAB,2012,+,-,-,Reinvestor
+69,POLYCAB,2013,+,-,-,Reinvestor
+69,POLYCAB,2014,+,-,-,Reinvestor
+69,POLYCAB,2015,+,-,-,Reinvestor
+69,POLYCAB,2016,+,-,-,Reinvestor
+69,POLYCAB,2017,+,-,-,Reinvestor
+69,POLYCAB,2018,+,-,-,Reinvestor
+69,POLYCAB,2019,+,-,-,Reinvestor
+69,POLYCAB,2020,+,-,-,Reinvestor
+69,POLYCAB,2021,+,-,-,Reinvestor
+69,POLYCAB,2022,+,-,-,Reinvestor
+69,POLYCAB,2023,+,-,-,Reinvestor
+69,POLYCAB,2024,+,-,-,Reinvestor
+70,LODHA,2012,+,-,-,Reinvestor
+70,LODHA,2013,+,-,-,Reinvestor
+70,LODHA,2014,+,-,-,Reinvestor
+70,LODHA,2015,+,-,-,Reinvestor
+70,LODHA,2016,+,-,-,Reinvestor
+70,LODHA,2017,+,-,-,Reinvestor
+70,LODHA,2018,+,-,-,Reinvestor
+70,LODHA,2019,+,-,-,Reinvestor
+70,LODHA,2020,+,-,-,Reinvestor
+70,LODHA,2021,+,-,-,Reinvestor
+70,LODHA,2022,+,-,-,Reinvestor
+70,LODHA,2023,+,-,-,Reinvestor
+70,LODHA,2024,+,-,-,Reinvestor
+71,JIOFIN,2012,+,-,-,Reinvestor
+71,JIOFIN,2013,+,-,-,Reinvestor
+71,JIOFIN,2014,+,-,-,Reinvestor
+71,JIOFIN,2015,+,-,-,Reinvestor
+71,JIOFIN,2016,+,-,-,Reinvestor
+71,JIOFIN,2017,+,-,-,Reinvestor
+71,JIOFIN,2018,+,-,-,Reinvestor
+71,JIOFIN,2019,+,-,-,Reinvestor
+71,JIOFIN,2020,+,-,-,Reinvestor
+71,JIOFIN,2021,+,-,-,Reinvestor
+71,JIOFIN,2022,+,-,-,Reinvestor
+71,JIOFIN,2023,+,-,-,Reinvestor
+71,JIOFIN,2024,+,-,-,Reinvestor
+72,MUTHOOTFIN,2012,+,-,-,Reinvestor
+72,MUTHOOTFIN,2013,+,-,-,Reinvestor
+72,MUTHOOTFIN,2014,+,-,-,Reinvestor
+72,MUTHOOTFIN,2015,+,-,-,Reinvestor
+72,MUTHOOTFIN,2016,+,-,-,Reinvestor
+72,MUTHOOTFIN,2017,+,-,-,Reinvestor
+72,MUTHOOTFIN,2018,+,-,-,Reinvestor
+72,MUTHOOTFIN,2019,+,-,-,Reinvestor
+72,MUTHOOTFIN,2020,+,-,-,Reinvestor
+72,MUTHOOTFIN,2021,+,-,-,Reinvestor
+72,MUTHOOTFIN,2022,+,-,-,Reinvestor
+72,MUTHOOTFIN,2023,+,-,-,Reinvestor
+72,MUTHOOTFIN,2024,+,-,-,Reinvestor
+73,CANBK,2012,+,-,-,Reinvestor
+73,CANBK,2013,+,-,-,Reinvestor
+73,CANBK,2014,+,-,-,Reinvestor
+73,CANBK,2015,+,-,-,Reinvestor
+73,CANBK,2016,+,-,-,Reinvestor
+73,CANBK,2017,+,-,-,Reinvestor
+73,CANBK,2018,+,-,-,Reinvestor
+73,CANBK,2019,+,-,-,Reinvestor
+73,CANBK,2020,+,-,-,Reinvestor
+73,CANBK,2021,+,-,-,Reinvestor
+73,CANBK,2022,+,-,-,Reinvestor
+73,CANBK,2023,+,-,-,Reinvestor
+73,CANBK,2024,+,-,-,Reinvestor
+74,TATACOMM,2012,+,-,-,Shareholder Returns
+74,TATACOMM,2013,+,-,-,Shareholder Returns
+74,TATACOMM,2014,+,-,-,Reinvestor
+74,TATACOMM,2015,+,-,-,Shareholder Returns
+74,TATACOMM,2016,+,-,-,Reinvestor
+74,TATACOMM,2017,+,-,-,Reinvestor
+74,TATACOMM,2018,+,-,-,Reinvestor
+74,TATACOMM,2019,+,-,-,Reinvestor
+74,TATACOMM,2020,+,-,-,Reinvestor
+74,TATACOMM,2021,+,-,-,Reinvestor
+74,TATACOMM,2022,+,-,-,Reinvestor
+74,TATACOMM,2023,+,-,-,Reinvestor
+74,TATACOMM,2024,+,-,-,Reinvestor
+75,MAXHEALTH,2012,+,-,-,Reinvestor
+75,MAXHEALTH,2013,+,-,-,Reinvestor
+75,MAXHEALTH,2014,+,-,-,Reinvestor
+75,MAXHEALTH,2015,+,-,-,Reinvestor
+75,MAXHEALTH,2016,+,-,-,Reinvestor
+75,MAXHEALTH,2017,+,-,-,Reinvestor
+75,MAXHEALTH,2018,+,-,-,Reinvestor
+75,MAXHEALTH,2019,+,-,-,Reinvestor
+75,MAXHEALTH,2020,+,-,-,Reinvestor
+75,MAXHEALTH,2021,+,-,-,Reinvestor
+75,MAXHEALTH,2022,+,-,-,Reinvestor
+75,MAXHEALTH,2023,+,-,-,Reinvestor
+75,MAXHEALTH,2024,+,-,-,Reinvestor
+76,PAGEIND,2012,+,-,-,Reinvestor
+76,PAGEIND,2013,+,-,-,Reinvestor
+76,PAGEIND,2014,+,-,-,Reinvestor
+76,PAGEIND,2015,+,-,-,Reinvestor
+76,PAGEIND,2016,+,-,-,Reinvestor
+76,PAGEIND,2017,+,-,-,Reinvestor
+76,PAGEIND,2018,+,-,-,Reinvestor
+76,PAGEIND,2019,+,-,-,Reinvestor
+76,PAGEIND,2020,+,-,-,Reinvestor
+76,PAGEIND,2021,+,-,-,Reinvestor
+76,PAGEIND,2022,+,-,-,Reinvestor
+76,PAGEIND,2023,+,-,-,Reinvestor
+76,PAGEIND,2024,+,-,-,Reinvestor
+77,COLPAL,2012,+,-,-,Reinvestor
+77,COLPAL,2013,+,-,-,Reinvestor
+77,COLPAL,2014,+,-,-,Reinvestor
+77,COLPAL,2015,+,-,-,Reinvestor
+77,COLPAL,2016,+,-,-,Reinvestor
+77,COLPAL,2017,+,-,-,Reinvestor
+77,COLPAL,2018,+,-,-,Reinvestor
+77,COLPAL,2019,+,-,-,Reinvestor
+77,COLPAL,2020,+,-,-,Reinvestor
+77,COLPAL,2021,+,-,-,Reinvestor
+77,COLPAL,2022,+,-,-,Reinvestor
+77,COLPAL,2023,+,-,-,Reinvestor
+77,COLPAL,2024,+,-,-,Reinvestor
+78,ICICIGI,2012,+,-,-,Reinvestor
+78,ICICIGI,2013,+,-,-,Reinvestor
+78,ICICIGI,2014,+,-,-,Reinvestor
+78,ICICIGI,2015,+,-,-,Reinvestor
+78,ICICIGI,2016,+,-,-,Reinvestor
+78,ICICIGI,2017,+,-,-,Reinvestor
+78,ICICIGI,2018,+,-,-,Reinvestor
+78,ICICIGI,2019,+,-,-,Reinvestor
+78,ICICIGI,2020,+,-,-,Reinvestor
+78,ICICIGI,2021,+,-,-,Reinvestor
+78,ICICIGI,2022,+,-,-,Reinvestor
+78,ICICIGI,2023,+,-,-,Reinvestor
+78,ICICIGI,2024,+,-,-,Reinvestor
+79,IDFCFIRSTB,2012,+,-,-,Reinvestor
+79,IDFCFIRSTB,2013,+,-,-,Shareholder Returns
+79,IDFCFIRSTB,2014,+,-,-,Reinvestor
+79,IDFCFIRSTB,2015,+,-,-,Reinvestor
+79,IDFCFIRSTB,2016,+,-,-,Reinvestor
+79,IDFCFIRSTB,2017,+,-,-,Reinvestor
+79,IDFCFIRSTB,2018,+,-,-,Reinvestor
+79,IDFCFIRSTB,2019,+,-,-,Reinvestor
+79,IDFCFIRSTB,2020,+,-,-,Reinvestor
+79,IDFCFIRSTB,2021,+,-,-,Reinvestor
+79,IDFCFIRSTB,2022,+,-,-,Reinvestor
+79,IDFCFIRSTB,2023,+,-,-,Reinvestor
+79,IDFCFIRSTB,2024,+,-,-,Reinvestor
+80,TATAINVEST,2012,+,-,-,Shareholder Returns
+80,TATAINVEST,2013,+,-,-,Reinvestor
+80,TATAINVEST,2014,+,-,-,Reinvestor
+80,TATAINVEST,2015,+,-,-,Reinvestor
+80,TATAINVEST,2016,+,-,-,Reinvestor
+80,TATAINVEST,2017,+,-,-,Reinvestor
+80,TATAINVEST,2018,+,-,-,Reinvestor
+80,TATAINVEST,2019,+,-,-,Reinvestor
+80,TATAINVEST,2020,+,-,-,Reinvestor
+80,TATAINVEST,2021,+,-,-,Reinvestor
+80,TATAINVEST,2022,+,-,-,Reinvestor
+80,TATAINVEST,2023,+,-,-,Reinvestor
+80,TATAINVEST,2024,+,-,-,Reinvestor
+81,PERSISTENT,2012,+,-,-,Shareholder Returns
+81,PERSISTENT,2013,+,-,-,Shareholder Returns
+81,PERSISTENT,2014,+,-,-,Reinvestor
+81,PERSISTENT,2015,+,-,-,Reinvestor
+81,PERSISTENT,2016,+,-,-,Reinvestor
+81,PERSISTENT,2017,+,-,-,Reinvestor
+81,PERSISTENT,2018,+,-,-,Reinvestor
+81,PERSISTENT,2019,+,-,-,Reinvestor
+81,PERSISTENT,2020,+,-,-,Reinvestor
+81,PERSISTENT,2021,+,-,-,Reinvestor
+81,PERSISTENT,2022,+,-,-,Reinvestor
+81,PERSISTENT,2023,+,-,-,Reinvestor
+81,PERSISTENT,2024,+,-,-,Reinvestor
+82,TATACHEM,2012,+,-,-,Reinvestor
+82,TATACHEM,2013,+,-,-,Shareholder Returns
+82,TATACHEM,2014,+,-,-,Reinvestor
+82,TATACHEM,2015,+,-,-,Reinvestor
+82,TATACHEM,2016,+,-,-,Reinvestor
+82,TATACHEM,2017,+,-,-,Reinvestor
+82,TATACHEM,2018,+,-,-,Reinvestor
+82,TATACHEM,2019,+,-,-,Reinvestor
+82,TATACHEM,2020,+,-,-,Reinvestor
+82,TATACHEM,2021,+,-,-,Reinvestor
+82,TATACHEM,2022,+,-,-,Reinvestor
+82,TATACHEM,2023,+,-,-,Reinvestor
+82,TATACHEM,2024,+,-,-,Reinvestor
+83,MANKIND,2012,+,-,-,Reinvestor
+83,MANKIND,2013,+,-,-,Reinvestor
+83,MANKIND,2014,+,-,-,Reinvestor
+83,MANKIND,2015,+,-,-,Reinvestor
+83,MANKIND,2016,+,-,-,Reinvestor
+83,MANKIND,2017,+,-,-,Reinvestor
+83,MANKIND,2018,+,-,-,Reinvestor
+83,MANKIND,2019,+,-,-,Reinvestor
+83,MANKIND,2020,+,-,-,Reinvestor
+83,MANKIND,2021,+,-,-,Reinvestor
+83,MANKIND,2022,+,-,-,Reinvestor
+83,MANKIND,2023,+,-,-,Reinvestor
+83,MANKIND,2024,+,-,-,Reinvestor
+84,PAYTM,2013,+,-,-,Reinvestor
+84,PAYTM,2014,+,-,-,Reinvestor
+84,PAYTM,2015,+,-,-,Reinvestor
+84,PAYTM,2016,+,-,-,Shareholder Returns
+84,PAYTM,2017,+,-,-,Reinvestor
+84,PAYTM,2018,+,-,-,Reinvestor
+84,PAYTM,2019,+,-,-,Reinvestor
+84,PAYTM,2020,+,-,-,Reinvestor
+84,PAYTM,2021,+,-,-,Reinvestor
+84,PAYTM,2022,+,-,-,Reinvestor
+84,PAYTM,2023,+,-,-,Reinvestor
+84,PAYTM,2024,+,-,-,Reinvestor
+85,POLICYBZR,2013,+,-,-,Shareholder Returns
+85,POLICYBZR,2014,+,-,-,Shareholder Returns
+85,POLICYBZR,2015,+,-,-,Shareholder Returns
+85,POLICYBZR,2016,+,-,-,Reinvestor
+85,POLICYBZR,2017,+,-,-,Shareholder Returns
+85,POLICYBZR,2018,+,-,-,Reinvestor
+85,POLICYBZR,2019,+,-,-,Shareholder Returns
+85,POLICYBZR,2020,+,-,-,Reinvestor
+85,POLICYBZR,2021,+,-,-,Reinvestor
+85,POLICYBZR,2022,+,-,-,Reinvestor
+85,POLICYBZR,2023,+,-,-,Reinvestor
+85,POLICYBZR,2024,+,-,-,Reinvestor
+86,AWL,2013,+,-,-,Reinvestor
+86,AWL,2014,+,-,-,Reinvestor
+86,AWL,2015,+,-,-,Reinvestor
+86,AWL,2016,+,-,-,Reinvestor
+86,AWL,2017,+,-,-,Reinvestor
+86,AWL,2018,+,-,-,Reinvestor
+86,AWL,2019,+,-,-,Reinvestor
+86,AWL,2020,+,-,-,Reinvestor
+86,AWL,2021,+,-,-,Reinvestor
+86,AWL,2022,+,-,-,Reinvestor
+86,AWL,2023,+,-,-,Reinvestor
+86,AWL,2024,+,-,-,Reinvestor
+87,IRCTC,2013,+,-,-,Shareholder Returns
+87,IRCTC,2014,+,-,-,Shareholder Returns
+87,IRCTC,2015,+,-,-,Shareholder Returns
+87,IRCTC,2016,+,-,-,Shareholder Returns
+87,IRCTC,2017,+,-,-,Reinvestor
+87,IRCTC,2018,+,-,-,Reinvestor
+87,IRCTC,2019,+,-,-,Reinvestor
+87,IRCTC,2020,+,-,-,Reinvestor
+87,IRCTC,2021,+,-,-,Reinvestor
+87,IRCTC,2022,+,-,-,Reinvestor
+87,IRCTC,2023,+,-,-,Reinvestor
+87,IRCTC,2024,+,-,-,Reinvestor
+88,PFC,2013,+,-,-,Shareholder Returns
+88,PFC,2014,+,-,-,Reinvestor
+88,PFC,2015,+,-,-,Shareholder Returns
+88,PFC,2016,+,-,-,Reinvestor
+88,PFC,2017,+,-,-,Reinvestor
+88,PFC,2018,+,-,-,Reinvestor
+88,PFC,2019,+,-,-,Reinvestor
+88,PFC,2020,+,-,-,Reinvestor
+88,PFC,2021,+,-,-,Reinvestor
+88,PFC,2022,+,-,-,Reinvestor
+88,PFC,2023,+,-,-,Reinvestor
+88,PFC,2024,+,-,-,Reinvestor
+89,RECLTD,2013,+,-,-,Reinvestor
+89,RECLTD,2014,+,-,-,Reinvestor
+89,RECLTD,2015,+,-,-,Reinvestor
+89,RECLTD,2016,+,-,-,Reinvestor
+89,RECLTD,2017,+,-,-,Reinvestor
+89,RECLTD,2018,+,-,-,Reinvestor
+89,RECLTD,2019,+,-,-,Reinvestor
+89,RECLTD,2020,+,-,-,Reinvestor
+89,RECLTD,2021,+,-,-,Reinvestor
+89,RECLTD,2022,+,-,-,Reinvestor
+89,RECLTD,2023,+,-,-,Reinvestor
+89,RECLTD,2024,+,-,-,Reinvestor
+90,SAIL,2013,+,-,-,Reinvestor
+90,SAIL,2014,+,-,-,Reinvestor
+90,SAIL,2015,+,-,-,Shareholder Returns
+90,SAIL,2016,+,-,-,Reinvestor
+90,SAIL,2017,+,-,-,Reinvestor
+90,SAIL,2018,+,-,-,Reinvestor
+90,SAIL,2019,+,-,-,Reinvestor
+90,SAIL,2020,+,-,-,Reinvestor
+90,SAIL,2021,+,-,-,Reinvestor
+90,SAIL,2022,+,-,-,Reinvestor
+90,SAIL,2023,+,-,-,Shareholder Returns
+90,SAIL,2024,+,-,-,Reinvestor
+91,VEDL,2013,+,-,-,Shareholder Returns
+91,VEDL,2014,+,-,-,Reinvestor
+91,VEDL,2015,+,-,-,Shareholder Returns
+91,VEDL,2016,+,-,-,Reinvestor
+91,VEDL,2017,+,-,-,Shareholder Returns
+91,VEDL,2018,+,-,-,Reinvestor
+91,VEDL,2019,+,-,-,Reinvestor
+91,VEDL,2020,+,-,-,Shareholder Returns
+91,VEDL,2021,+,-,-,Reinvestor
+91,VEDL,2022,+,-,-,Reinvestor
+91,VEDL,2023,+,-,-,Reinvestor
+91,VEDL,2024,+,-,-,Reinvestor
+92,WIPRO,2013,+,-,-,Reinvestor
+92,WIPRO,2014,+,-,-,Shareholder Returns
+92,WIPRO,2015,+,-,-,Shareholder Returns
+92,WIPRO,2016,+,-,-,Reinvestor
+92,WIPRO,2017,+,-,-,Reinvestor
+92,WIPRO,2018,+,-,-,Reinvestor
+92,WIPRO,2019,+,-,-,Reinvestor
+92,WIPRO,2020,+,-,-,Reinvestor
+92,WIPRO,2021,+,-,-,Reinvestor
+92,WIPRO,2022,+,-,-,Reinvestor
+92,WIPRO,2023,+,-,-,Reinvestor
+92,WIPRO,2024,+,-,-,Reinvestor

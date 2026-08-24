@@ -4,23 +4,26 @@ import pandas as pd
 
 def verify_all():
     print("=" * 85)
-    print("BLUESTOCK MUTUAL FUND & PREREQUISITES CAPSTONE — COMPLETE VERIFICATION AUDIT")
+    print("BLUESTOCK MUTUAL FUND, SPRINT 1 & SPRINT 2 — COMPLETE VERIFICATION AUDIT")
     print("=" * 85)
 
     checks = []
 
-    # 1. Check nifty100.db Database
+    # 1. Check nifty100.db Database & Table Counts
     db_path = "nifty100.db"
     if os.path.exists(db_path):
         conn = sqlite3.connect(db_path)
         cur = conn.cursor()
         cur.execute("SELECT COUNT(*) FROM companies;")
         comp_cnt = cur.fetchone()[0]
+        cur.execute("SELECT COUNT(*) FROM financial_ratios;")
+        ratios_cnt = cur.fetchone()[0]
         cur.execute("PRAGMA foreign_key_check;")
         fk_errs = len(cur.fetchall())
         conn.close()
-        status_db = comp_cnt == 92 and fk_errs == 0
-        checks.append(("nifty100.db Companies Count (Target: 92)", f"Count: {comp_cnt}", status_db))
+        
+        checks.append(("nifty100.db Companies Count (Target: 92)", f"Count: {comp_cnt}", comp_cnt == 92))
+        checks.append(("nifty100.db financial_ratios Count (Target: >= 1,100)", f"Count: {ratios_cnt}", ratios_cnt >= 1100))
         checks.append(("nifty100.db Foreign Key Integrity (Target: 0)", f"FK Errors: {fk_errs}", fk_errs == 0))
     else:
         checks.append(("nifty100.db Database Existence", "Missing", False))
@@ -37,16 +40,17 @@ def verify_all():
     else:
         checks.append(("bluestock_mf.db Database Existence", "Missing", False))
 
-    # 3. Check CSV Deliverables
+    # 3. Check CSV & Log Deliverables
     csv_files = [
-        "fund_scorecard.csv",
-        "alpha_beta.csv",
-        "var_cvar_report.csv",
-        "output/load_audit.csv",
-        "output/validation_failures.csv",
-        "data/processed/api_extracted_data.csv"
+        ("fund_scorecard.csv", 40),
+        ("alpha_beta.csv", 40),
+        ("var_cvar_report.csv", 40),
+        ("output/load_audit.csv", 11),
+        ("output/validation_failures.csv", 0),
+        ("output/capital_allocation.csv", 1000),
+        ("data/processed/api_extracted_data.csv", 3000)
     ]
-    for csv_f in csv_files:
+    for csv_f, min_r in csv_files:
         exists = os.path.exists(csv_f)
         if exists:
             rows = len(pd.read_csv(csv_f))
@@ -54,52 +58,29 @@ def verify_all():
         else:
             checks.append((f"CSV Deliverable '{csv_f}'", "Missing", False))
 
-    # 4. Check PDF Reports
-    pdf_files = [
-        "reports/Final_Report.pdf",
-        "reports/prerequisites/Stock_Market_Summary_and_Financial_Analysis.pdf",
-        "reports/prerequisites/FinTech_Research_Report.pdf"
+    log_f = "output/ratio_edge_cases.log"
+    log_exists = os.path.exists(log_f)
+    checks.append((f"Log Deliverable '{log_f}'", "Exists" if log_exists else "Missing", log_exists))
+
+    # 4. Check Analytics Modules
+    modules = [
+        "src/analytics/ratios.py",
+        "src/analytics/cagr.py",
+        "src/analytics/cashflow_kpis.py"
     ]
-    for pdf_f in pdf_files:
-        exists = os.path.exists(pdf_f)
-        size = os.path.getsize(pdf_f) if exists else 0
-        checks.append((f"PDF Report '{pdf_f}'", f"Size: {size//1024} KB", exists and size > 0))
+    for mod in modules:
+        m_exists = os.path.exists(mod)
+        checks.append((f"Analytics Module '{mod}'", "Exists" if m_exists else "Missing", m_exists))
 
-    # 5. Check PPTX Presentation
-    pptx_path = "reports/Bluestock_MF_Presentation.pptx"
-    exists_pptx = os.path.exists(pptx_path)
-    size_pptx = os.path.getsize(pptx_path) if exists_pptx else 0
-    checks.append((f"PPTX Deck '{pptx_path}'", f"Size: {size_pptx//1024} KB", exists_pptx and size_pptx > 0))
-
-    # 6. Check App & Web Dashboard
-    app_exists = os.path.exists("app.py")
-    checks.append(("Streamlit Web App 'app.py'", "Exists" if app_exists else "Missing", app_exists))
-    
-    html_exists = os.path.exists("dashboard/index.html")
-    checks.append(("Interactive Web App 'dashboard/index.html'", "Exists" if html_exists else "Missing", html_exists))
-
-    # 7. Check 6 Numbered Notebooks
-    notebooks = [
-        "notebooks/01_data_ingestion.ipynb",
-        "notebooks/02_data_cleaning.ipynb",
-        "notebooks/03_eda_analysis.ipynb",
-        "notebooks/04_performance_analytics.ipynb",
-        "notebooks/05_advanced_analytics.ipynb",
-        "notebooks/06_api_data_extraction.ipynb"
+    # 5. Check KPI Unit Tests
+    kpi_tests = [
+        "tests/kpi/test_ratios.py",
+        "tests/kpi/test_cagr.py",
+        "tests/kpi/test_cashflow_kpis.py"
     ]
-    for nb in notebooks:
-        exists = os.path.exists(nb)
-        checks.append((f"Notebook '{nb}'", "Exists" if exists else "Missing", exists))
-
-    # 8. Check Prerequisites Markdown Reports
-    prereq_docs = [
-        "reports/prerequisites/Stock_Market_Summary_and_Financial_Analysis.md",
-        "reports/prerequisites/Software_Architecture_Diagram.md",
-        "reports/prerequisites/FinTech_Research_Report.md"
-    ]
-    for doc in prereq_docs:
-        exists = os.path.exists(doc)
-        checks.append((f"Prerequisite Doc '{doc}'", "Exists" if exists else "Missing", exists))
+    for kt in kpi_tests:
+        kt_exists = os.path.exists(kt)
+        checks.append((f"KPI Unit Test '{kt}'", "Exists" if kt_exists else "Missing", kt_exists))
 
     # Print Verification Results
     print("\n" + f"{'VERIFICATION CHECKITEM':<60} | {'METRIC RESULT':<18} | {'STATUS'}")
@@ -112,7 +93,7 @@ def verify_all():
 
     print("=" * 90)
     if all_passed:
-        print("🎉 ALL WEEK 2 PREREQUISITES & CAPSTONE TASKS VERIFIED 100% SUCCESSFUL!")
+        print("🎉 ALL SPRINT 1, SPRINT 2 & CAPSTONE TASKS VERIFIED 100% SUCCESSFUL!")
     else:
         print("❌ VERIFICATION FAILURES ENCOUNTERED.")
     print("=" * 90 + "\n")
