@@ -4,7 +4,7 @@ import pandas as pd
 
 def verify_all():
     print("=" * 85)
-    print("BLUESTOCK MUTUAL FUND, SPRINT 1 & SPRINT 2 — COMPLETE VERIFICATION AUDIT")
+    print("BLUESTOCK MUTUAL FUND, SPRINTS 1, 2 & 3 — COMPLETE VERIFICATION AUDIT")
     print("=" * 85)
 
     checks = []
@@ -18,12 +18,15 @@ def verify_all():
         comp_cnt = cur.fetchone()[0]
         cur.execute("SELECT COUNT(*) FROM financial_ratios;")
         ratios_cnt = cur.fetchone()[0]
+        cur.execute("SELECT COUNT(*) FROM peer_percentiles;")
+        peer_pct_cnt = cur.fetchone()[0]
         cur.execute("PRAGMA foreign_key_check;")
         fk_errs = len(cur.fetchall())
         conn.close()
         
         checks.append(("nifty100.db Companies Count (Target: 92)", f"Count: {comp_cnt}", comp_cnt == 92))
         checks.append(("nifty100.db financial_ratios Count (Target: >= 1,100)", f"Count: {ratios_cnt}", ratios_cnt >= 1100))
+        checks.append(("nifty100.db peer_percentiles Count (Target: > 0)", f"Count: {peer_pct_cnt}", peer_pct_cnt > 0))
         checks.append(("nifty100.db Foreign Key Integrity (Target: 0)", f"FK Errors: {fk_errs}", fk_errs == 0))
     else:
         checks.append(("nifty100.db Database Existence", "Missing", False))
@@ -40,7 +43,16 @@ def verify_all():
     else:
         checks.append(("bluestock_mf.db Database Existence", "Missing", False))
 
-    # 3. Check CSV & Log Deliverables
+    # 3. Check CSV & Excel Deliverables
+    excel_files = [
+        "output/screener_output.xlsx",
+        "output/peer_comparison.xlsx"
+    ]
+    for ex_f in excel_files:
+        exists = os.path.exists(ex_f)
+        size = os.path.getsize(ex_f) if exists else 0
+        checks.append((f"Excel Deliverable '{ex_f}'", f"Size: {size//1024} KB", exists and size > 0))
+
     csv_files = [
         ("fund_scorecard.csv", 40),
         ("alpha_beta.csv", 40),
@@ -62,25 +74,38 @@ def verify_all():
     log_exists = os.path.exists(log_f)
     checks.append((f"Log Deliverable '{log_f}'", "Exists" if log_exists else "Missing", log_exists))
 
-    # 4. Check Analytics Modules
+    # 4. Check Config & Radar Charts
+    cfg_f = "config/screener_config.yaml"
+    cfg_exists = os.path.exists(cfg_f)
+    checks.append((f"Config File '{cfg_f}'", "Exists" if cfg_exists else "Missing", cfg_exists))
+
+    radar_dir = "reports/radar_charts"
+    radar_cnt = len([f for f in os.listdir(radar_dir) if f.endswith(".png")]) if os.path.exists(radar_dir) else 0
+    checks.append((f"Radar Charts Directory '{radar_dir}'", f"PNG Charts: {radar_cnt}", radar_cnt > 0))
+
+    # 5. Check Analytics Modules
     modules = [
         "src/analytics/ratios.py",
         "src/analytics/cagr.py",
-        "src/analytics/cashflow_kpis.py"
+        "src/analytics/cashflow_kpis.py",
+        "src/screener/engine.py",
+        "src/analytics/peer.py"
     ]
     for mod in modules:
         m_exists = os.path.exists(mod)
         checks.append((f"Analytics Module '{mod}'", "Exists" if m_exists else "Missing", m_exists))
 
-    # 5. Check KPI Unit Tests
+    # 6. Check All Unit Tests
     kpi_tests = [
         "tests/kpi/test_ratios.py",
         "tests/kpi/test_cagr.py",
-        "tests/kpi/test_cashflow_kpis.py"
+        "tests/kpi/test_cashflow_kpis.py",
+        "tests/screener/test_screener.py",
+        "tests/peer/test_peer.py"
     ]
     for kt in kpi_tests:
         kt_exists = os.path.exists(kt)
-        checks.append((f"KPI Unit Test '{kt}'", "Exists" if kt_exists else "Missing", kt_exists))
+        checks.append((f"Unit Test File '{kt}'", "Exists" if kt_exists else "Missing", kt_exists))
 
     # Print Verification Results
     print("\n" + f"{'VERIFICATION CHECKITEM':<60} | {'METRIC RESULT':<18} | {'STATUS'}")
@@ -93,7 +118,7 @@ def verify_all():
 
     print("=" * 90)
     if all_passed:
-        print("🎉 ALL SPRINT 1, SPRINT 2 & CAPSTONE TASKS VERIFIED 100% SUCCESSFUL!")
+        print("🎉 ALL SPRINTS 1, 2, 3 & CAPSTONE TASKS VERIFIED 100% SUCCESSFUL!")
     else:
         print("❌ VERIFICATION FAILURES ENCOUNTERED.")
     print("=" * 90 + "\n")

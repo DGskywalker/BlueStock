@@ -1,5 +1,5 @@
 -- Nifty 100 SQLite Database Schema DDL (db/schema.sql)
--- Defines 10 relational tables with Primary Key, Foreign Key, and Integrity Constraints
+-- Defines 12 relational tables with Primary Key, Foreign Key, and Integrity Constraints
 
 PRAGMA foreign_keys = ON;
 
@@ -123,7 +123,19 @@ CREATE TABLE IF NOT EXISTS financial_ratios (
     FOREIGN KEY (company_id) REFERENCES companies(company_id) ON DELETE CASCADE
 );
 
--- 7. Analysis Fact Table
+-- 7. Peer Percentiles Fact Table (Sprint 3)
+CREATE TABLE IF NOT EXISTS peer_percentiles (
+    company_id INTEGER NOT NULL,
+    peer_group_name TEXT NOT NULL,
+    metric TEXT NOT NULL,
+    value REAL,
+    percentile_rank REAL NOT NULL,
+    year INTEGER NOT NULL,
+    PRIMARY KEY (company_id, peer_group_name, metric, year),
+    FOREIGN KEY (company_id) REFERENCES companies(company_id) ON DELETE CASCADE
+);
+
+-- 8. Analysis Fact Table
 CREATE TABLE IF NOT EXISTS analysis (
     company_id INTEGER NOT NULL,
     year INTEGER NOT NULL,
@@ -135,7 +147,7 @@ CREATE TABLE IF NOT EXISTS analysis (
     FOREIGN KEY (company_id) REFERENCES companies(company_id) ON DELETE CASCADE
 );
 
--- 8. Documents Reference Table
+-- 9. Documents Reference Table
 CREATE TABLE IF NOT EXISTS documents (
     doc_id INTEGER PRIMARY KEY AUTOINCREMENT,
     company_id INTEGER NOT NULL,
@@ -145,7 +157,7 @@ CREATE TABLE IF NOT EXISTS documents (
     FOREIGN KEY (company_id) REFERENCES companies(company_id) ON DELETE CASCADE
 );
 
--- 9. Pros & Cons Qualitative Table
+-- 10. Pros & Cons Qualitative Table
 CREATE TABLE IF NOT EXISTS prosandcons (
     pc_id INTEGER PRIMARY KEY AUTOINCREMENT,
     company_id INTEGER NOT NULL,
@@ -154,7 +166,7 @@ CREATE TABLE IF NOT EXISTS prosandcons (
     FOREIGN KEY (company_id) REFERENCES companies(company_id) ON DELETE CASCADE
 );
 
--- 10. Stock Prices Time-Series Table
+-- 11. Stock Prices Time-Series Table
 CREATE TABLE IF NOT EXISTS stock_prices (
     company_id INTEGER NOT NULL,
     date TEXT NOT NULL,
@@ -167,7 +179,7 @@ CREATE TABLE IF NOT EXISTS stock_prices (
     FOREIGN KEY (company_id) REFERENCES companies(company_id) ON DELETE CASCADE
 );
 
--- 11. Peer Groups Mapping Table
+-- 12. Peer Groups Mapping Table
 CREATE TABLE IF NOT EXISTS peer_groups (
     company_id INTEGER NOT NULL,
     peer_company_id INTEGER NOT NULL,
@@ -182,4 +194,5 @@ CREATE INDEX IF NOT EXISTS idx_pnl_comp ON profitandloss(company_id);
 CREATE INDEX IF NOT EXISTS idx_bs_comp ON balancesheet(company_id);
 CREATE INDEX IF NOT EXISTS idx_cf_comp ON cashflow(company_id);
 CREATE INDEX IF NOT EXISTS idx_ratios_comp ON financial_ratios(company_id);
+CREATE INDEX IF NOT EXISTS idx_peer_perc_comp ON peer_percentiles(company_id, peer_group_name);
 CREATE INDEX IF NOT EXISTS idx_prices_comp_date ON stock_prices(company_id, date);
