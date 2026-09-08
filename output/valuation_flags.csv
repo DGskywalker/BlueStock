@@ -1,16 +1,10 @@
 company_id,ticker,company_name,sector,pe_ratio,pb_ratio,ev_to_ebitda,fcf_yield_pct,median_5yr_pe,sector_median_pe,pe_vs_sector_median_pct,valuation_flag
-10,HINDUNILVR,HINDUNILVR India Limited,IT,34.67,2.95,26.0,0.92,25.43,20.7,67.49,Caution
-55,ICICIPRULI,ICICIPRULI India Limited,IT,34.15,2.2,25.61,0.18,26.63,20.7,64.98,Caution
-64,ABB,ABB India Limited,IT,34.08,5.87,25.56,1.79,29.28,20.7,64.64,Caution
-47,GAIL,GAIL India Limited,Oil & Gas,34.2,2.29,25.65,0.95,28.46,21.26,60.87,Caution
-73,CANBK,CANBK India Limited,IT,31.51,3.9,23.63,0.57,22.58,20.7,52.22,Caution
-40,BPCL,BPCL India Limited,Automobile,18.01,4.15,13.51,1.28,22.6,25.759999999999998,-30.09,Discount
-31,ADANIPORTS,ADANIPORTS India Limited,Automobile,17.81,2.64,13.36,0.2,22.74,25.759999999999998,-30.86,Discount
-67,INDIGO,INDIGO India Limited,Automobile,17.76,4.6,13.32,0.23,25.63,25.759999999999998,-31.06,Discount
-27,BAJAJFINSV,BAJAJFINSV India Limited,Financial Services,17.92,3.52,13.44,0.34,26.87,27.04,-33.73,Discount
-7,ITC,ITC India Limited,Power,19.6,2.5,14.7,2.15,25.21,29.64,-33.87,Discount
-53,SHRIRAMFIN,SHRIRAMFIN India Limited,Construction,15.4,5.73,11.55,0.38,24.3,23.450000000000003,-34.33,Discount
-35,BEL,BEL India Limited,Construction,15.39,4.64,11.54,0.4,23.9,23.450000000000003,-34.37,Discount
-44,TRENT,TRENT India Limited,Construction,15.12,4.41,11.34,0.34,23.46,23.450000000000003,-35.52,Discount
-22,NTPC,NTPC India Limited,Automobile,16.02,4.65,12.02,0.37,21.17,25.759999999999998,-37.81,Discount
-36,IOC,IOC India Limited,Financial Services,15.47,2.79,11.6,0.52,29.51,27.04,-42.79,Discount
+86,AWL,AWL India Limited,Metals,34.35,5.2,25.76,0.27,24.83,20.354999999999997,68.75,Caution
+50,BRITANNIA,BRITANNIA India Limited,Metals,31.27,5.89,23.45,0.51,28.1,20.354999999999997,53.62,Caution
+72,MUTHOOTFIN,MUTHOOTFIN India Limited,Financial Services,22.23,5.08,16.67,0.29,24.42,32.135,-30.82,Discount
+79,IDFCFIRSTB,IDFCFIRSTB India Limited,Power,18.84,2.63,14.13,0.42,29.94,27.935,-32.56,Discount
+22,NTPC,NTPC India Limited,Automobile,16.05,3.97,12.04,0.37,26.73,24.67,-34.94,Discount
+39,INDUSINDBK,INDUSINDBK India Limited,Consumer Goods,18.45,2.26,13.84,0.29,23.73,29.825,-38.14,Discount
+61,VARUNBEV,VARUNBEV India Limited,Power,17.17,2.79,12.88,1.19,27.24,27.935,-38.54,Discount
+75,MAXHEALTH,MAXHEALTH India Limited,Consumer Goods,17.69,2.04,13.27,0.54,20.88,29.825,-40.69,Discount
+1,RELIANCE,RELIANCE India Limited,IT,15.95,5.46,11.96,0.96,23.94,27.88,-42.79,Discount

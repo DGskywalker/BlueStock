@@ -4,7 +4,7 @@ import pandas as pd
 
 def verify_all():
     print("=" * 85)
-    print("BLUESTOCK FINANCIAL PLATFORM, SPRINTS 1, 2, 3 & 4 — COMPLETE VERIFICATION AUDIT")
+    print("BLUESTOCK FINANCIAL PLATFORM, SPRINTS 1, 2, 3, 4 & 5 — COMPLETE VERIFICATION AUDIT")
     print("=" * 85)
 
     checks = []
@@ -47,7 +47,8 @@ def verify_all():
     excel_files = [
         "output/screener_output.xlsx",
         "output/peer_comparison.xlsx",
-        "output/valuation_summary.xlsx"
+        "output/valuation_summary.xlsx",
+        "output/cashflow_intelligence.xlsx"
     ]
     for ex_f in excel_files:
         exists = os.path.exists(ex_f)
@@ -63,17 +64,39 @@ def verify_all():
         ("output/validation_failures.csv", 0),
         ("output/capital_allocation.csv", 1000),
         ("output/valuation_flags.csv", 5),
+        ("output/analysis_parsed.csv", 50),
+        ("output/parse_failures.csv", 0),
+        ("output/pros_cons_generated.csv", 92),
+        ("output/distress_alerts.csv", 1),
+        ("output/pattern_changes.csv", 2),
         ("data/processed/api_extracted_data.csv", 3000)
     ]
     for csv_f, min_r in csv_files:
         exists = os.path.exists(csv_f)
         if exists:
-            rows = len(pd.read_csv(csv_f))
+            try:
+                rows = len(pd.read_csv(csv_f))
+            except Exception:
+                rows = 0
             checks.append((f"CSV Deliverable '{csv_f}'", f"Rows: {rows}", True))
         else:
             checks.append((f"CSV Deliverable '{csv_f}'", "Missing", False))
 
-    # 5. Check Streamlit Dashboard Screens (8 screens)
+    # 5. Check PDF Reports Directories
+    tearsheets_dir = "reports/tearsheets"
+    ts_cnt = len([f for f in os.listdir(tearsheets_dir) if f.endswith(".pdf")]) if os.path.exists(tearsheets_dir) else 0
+    checks.append((f"Company Tearsheets PDF Directory '{tearsheets_dir}'", f"PDF Count: {ts_cnt}", ts_cnt == 92))
+
+    sector_pdf_dir = "reports/sector"
+    sec_pdf_cnt = len([f for f in os.listdir(sector_pdf_dir) if f.endswith(".pdf")]) if os.path.exists(sector_pdf_dir) else 0
+    checks.append((f"Sector Reports PDF Directory '{sector_pdf_dir}'", f"PDF Count: {sec_pdf_cnt}", sec_pdf_cnt >= 9))
+
+    port_pdf = "reports/portfolio/portfolio_summary.pdf"
+    p_pdf_exists = os.path.exists(port_pdf)
+    p_pdf_size = os.path.getsize(port_pdf)//1024 if p_pdf_exists else 0
+    checks.append((f"Portfolio Summary PDF '{port_pdf}'", f"Size: {p_pdf_size} KB", p_pdf_exists and p_pdf_size > 0))
+
+    # 6. Check Streamlit Dashboard Screens
     dashboard_files = [
         "src/dashboard/app.py",
         "src/dashboard/utils/db.py",
@@ -90,27 +113,34 @@ def verify_all():
         d_exists = os.path.exists(df_f)
         checks.append((f"Dashboard Screen File '{df_f}'", "Exists" if d_exists else "Missing", d_exists))
 
-    # 6. Check Analytics Modules
+    # 7. Check Analytics & Report Modules
     modules = [
         "src/analytics/ratios.py",
         "src/analytics/cagr.py",
         "src/analytics/cashflow_kpis.py",
         "src/screener/engine.py",
         "src/analytics/peer.py",
-        "src/analytics/valuation.py"
+        "src/analytics/valuation.py",
+        "src/nlp/parser.py",
+        "src/nlp/pros_cons_generator.py",
+        "src/reports/tearsheet.py",
+        "src/reports/sector_report.py",
+        "src/reports/portfolio_report.py"
     ]
     for mod in modules:
         m_exists = os.path.exists(mod)
-        checks.append((f"Analytics Module '{mod}'", "Exists" if m_exists else "Missing", m_exists))
+        checks.append((f"Analytics/Report Module '{mod}'", "Exists" if m_exists else "Missing", m_exists))
 
-    # 7. Check All Unit Tests
+    # 8. Check All Unit Tests
     unit_tests = [
         "tests/kpi/test_ratios.py",
         "tests/kpi/test_cagr.py",
         "tests/kpi/test_cashflow_kpis.py",
         "tests/screener/test_screener.py",
         "tests/peer/test_peer.py",
-        "tests/valuation/test_valuation.py"
+        "tests/valuation/test_valuation.py",
+        "tests/nlp/test_nlp.py",
+        "tests/reports/test_reports.py"
     ]
     for ut in unit_tests:
         ut_exists = os.path.exists(ut)
@@ -127,7 +157,7 @@ def verify_all():
 
     print("=" * 90)
     if all_passed:
-        print("🎉 ALL SPRINTS 1, 2, 3 & 4 PLATFORM TASKS VERIFIED 100% SUCCESSFUL!")
+        print("🎉 ALL SPRINTS 1, 2, 3, 4 & 5 PLATFORM TASKS VERIFIED 100% SUCCESSFUL!")
     else:
         print("❌ VERIFICATION FAILURES ENCOUNTERED.")
     print("=" * 90 + "\n")

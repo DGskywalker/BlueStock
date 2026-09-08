@@ -1,0 +1,512 @@
+company_id,type,rule_id,text,confidence_pct
+1,con,CON_09,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,80
+1,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+1,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+1,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+1,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+2,con,CON_09,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,80
+2,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+2,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+2,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+3,con,CON_DEFAULT,Exposed to macroeconomic cyclicality and commodity price fluctuations,75
+3,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+3,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+3,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+4,con,CON_09,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,80
+4,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+4,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+4,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+4,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+5,con,CON_DEFAULT,Exposed to macroeconomic cyclicality and commodity price fluctuations,75
+5,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+5,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+5,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+5,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+6,con,CON_DEFAULT,Exposed to macroeconomic cyclicality and commodity price fluctuations,75
+6,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+6,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+6,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+6,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,82
+6,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+7,con,CON_DEFAULT,Exposed to macroeconomic cyclicality and commodity price fluctuations,75
+7,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+7,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+7,pro,PRO_05,Operating profit margin above 25% indicates strong pricing power and cost discipline,92
+7,pro,PRO_06,Net profit compounding at above 20% over 5 years creates significant shareholder value,90
+7,pro,PRO_09,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding,87
+7,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+7,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,82
+7,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+8,con,CON_DEFAULT,Exposed to macroeconomic cyclicality and commodity price fluctuations,75
+8,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+8,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+8,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+9,con,CON_DEFAULT,Exposed to macroeconomic cyclicality and commodity price fluctuations,75
+9,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+9,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+9,pro,PRO_05,Operating profit margin above 25% indicates strong pricing power and cost discipline,92
+9,pro,PRO_09,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding,87
+9,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+9,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,82
+9,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+10,con,CON_DEFAULT,Exposed to macroeconomic cyclicality and commodity price fluctuations,75
+10,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+10,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+10,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+10,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+11,con,CON_09,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,80
+11,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+11,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+11,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+11,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+12,con,CON_09,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,80
+12,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+12,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+12,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+12,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+13,con,CON_DEFAULT,Exposed to macroeconomic cyclicality and commodity price fluctuations,75
+13,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+13,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+13,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+13,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,82
+13,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+14,con,CON_09,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,80
+14,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+14,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+14,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+14,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+15,con,CON_09,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,80
+15,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+15,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+15,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+16,con,CON_DEFAULT,Exposed to macroeconomic cyclicality and commodity price fluctuations,75
+16,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+16,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+16,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+16,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+17,con,CON_09,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,80
+17,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+17,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+17,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+17,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+18,con,CON_09,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,80
+18,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+18,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+18,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+18,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+19,con,CON_DEFAULT,Exposed to macroeconomic cyclicality and commodity price fluctuations,75
+19,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+19,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+19,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+19,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+20,con,CON_DEFAULT,Exposed to macroeconomic cyclicality and commodity price fluctuations,75
+20,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+20,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+21,con,CON_DEFAULT,Exposed to macroeconomic cyclicality and commodity price fluctuations,75
+21,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+21,pro,PRO_05,Operating profit margin above 25% indicates strong pricing power and cost discipline,92
+21,pro,PRO_06,Net profit compounding at above 20% over 5 years creates significant shareholder value,90
+21,pro,PRO_09,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding,87
+21,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,82
+21,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+22,con,CON_09,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,80
+22,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+22,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+22,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+22,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+23,con,CON_DEFAULT,Exposed to macroeconomic cyclicality and commodity price fluctuations,75
+23,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+23,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+23,pro,PRO_06,Net profit compounding at above 20% over 5 years creates significant shareholder value,90
+23,pro,PRO_09,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding,87
+23,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+23,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,82
+23,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+24,con,CON_DEFAULT,Exposed to macroeconomic cyclicality and commodity price fluctuations,75
+24,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+24,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+24,pro,PRO_06,Net profit compounding at above 20% over 5 years creates significant shareholder value,90
+24,pro,PRO_09,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding,87
+24,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+24,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,82
+24,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+25,con,CON_DEFAULT,Exposed to macroeconomic cyclicality and commodity price fluctuations,75
+25,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+25,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+25,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+25,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,82
+25,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+26,con,CON_DEFAULT,Exposed to macroeconomic cyclicality and commodity price fluctuations,75
+26,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+26,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+26,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+26,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,82
+26,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+27,con,CON_09,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,80
+27,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+27,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+27,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+27,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+28,con,CON_DEFAULT,Exposed to macroeconomic cyclicality and commodity price fluctuations,75
+28,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+28,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+28,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+28,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,82
+28,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+29,con,CON_DEFAULT,Exposed to macroeconomic cyclicality and commodity price fluctuations,75
+29,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+29,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+29,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+29,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+30,con,CON_09,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,80
+30,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+30,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+30,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+30,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+31,con,CON_DEFAULT,Exposed to macroeconomic cyclicality and commodity price fluctuations,75
+31,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+31,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+31,pro,PRO_05,Operating profit margin above 25% indicates strong pricing power and cost discipline,92
+31,pro,PRO_06,Net profit compounding at above 20% over 5 years creates significant shareholder value,90
+31,pro,PRO_09,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding,87
+31,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+31,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,82
+31,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+32,con,CON_DEFAULT,Exposed to macroeconomic cyclicality and commodity price fluctuations,75
+32,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+32,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+32,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+32,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+33,con,CON_09,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,80
+33,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+33,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+33,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+33,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+34,con,CON_DEFAULT,Exposed to macroeconomic cyclicality and commodity price fluctuations,75
+34,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+34,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+34,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+34,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,82
+34,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+35,con,CON_DEFAULT,Exposed to macroeconomic cyclicality and commodity price fluctuations,75
+35,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+35,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+35,pro,PRO_05,Operating profit margin above 25% indicates strong pricing power and cost discipline,92
+35,pro,PRO_06,Net profit compounding at above 20% over 5 years creates significant shareholder value,90
+35,pro,PRO_09,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding,87
+35,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+35,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,82
+35,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+36,con,CON_09,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,80
+36,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+36,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+36,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+37,con,CON_DEFAULT,Exposed to macroeconomic cyclicality and commodity price fluctuations,75
+37,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+37,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+37,pro,PRO_05,Operating profit margin above 25% indicates strong pricing power and cost discipline,92
+37,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+37,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,82
+37,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+38,con,CON_DEFAULT,Exposed to macroeconomic cyclicality and commodity price fluctuations,75
+38,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+38,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+38,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+38,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+39,con,CON_DEFAULT,Exposed to macroeconomic cyclicality and commodity price fluctuations,75
+39,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+39,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+39,pro,PRO_09,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding,87
+39,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+39,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,82
+39,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+40,con,CON_09,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,80
+40,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+40,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+41,con,CON_DEFAULT,Exposed to macroeconomic cyclicality and commodity price fluctuations,75
+41,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+41,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+41,pro,PRO_05,Operating profit margin above 25% indicates strong pricing power and cost discipline,92
+41,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+41,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,82
+41,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+42,con,CON_09,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,80
+42,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+42,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+42,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+42,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+43,con,CON_09,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,80
+43,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+43,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+43,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+43,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+44,con,CON_DEFAULT,Exposed to macroeconomic cyclicality and commodity price fluctuations,75
+44,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+44,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+44,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+44,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,82
+44,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+45,con,CON_DEFAULT,Exposed to macroeconomic cyclicality and commodity price fluctuations,75
+45,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+45,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+45,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+45,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,82
+45,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+46,con,CON_09,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,80
+46,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+46,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+46,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+46,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+47,con,CON_09,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,80
+47,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+47,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+47,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+48,con,CON_DEFAULT,Exposed to macroeconomic cyclicality and commodity price fluctuations,75
+48,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+48,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+48,pro,PRO_09,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding,87
+48,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+48,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,82
+48,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+49,con,CON_DEFAULT,Exposed to macroeconomic cyclicality and commodity price fluctuations,75
+49,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+49,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+49,pro,PRO_09,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding,87
+49,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+49,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,82
+49,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+50,con,CON_DEFAULT,Exposed to macroeconomic cyclicality and commodity price fluctuations,75
+50,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+50,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+50,pro,PRO_06,Net profit compounding at above 20% over 5 years creates significant shareholder value,90
+50,pro,PRO_09,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding,87
+50,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+50,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,82
+50,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+51,con,CON_09,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,80
+51,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+51,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+52,con,CON_DEFAULT,Exposed to macroeconomic cyclicality and commodity price fluctuations,75
+52,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+52,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+52,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+52,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+53,con,CON_09,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,80
+53,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+53,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+53,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+53,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+54,con,CON_09,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,80
+54,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+54,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+54,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+54,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+55,con,CON_DEFAULT,Exposed to macroeconomic cyclicality and commodity price fluctuations,75
+55,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+55,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+55,pro,PRO_09,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding,87
+55,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+55,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,82
+55,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+56,con,CON_DEFAULT,Exposed to macroeconomic cyclicality and commodity price fluctuations,75
+56,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+56,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+56,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+56,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,82
+56,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+57,con,CON_09,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,80
+57,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,88
+57,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+57,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+58,con,CON_DEFAULT,Exposed to macroeconomic cyclicality and commodity price fluctuations,75
+58,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+58,pro,PRO_05,Operating profit margin above 25% indicates strong pricing power and cost discipline,92
+58,pro,PRO_06,Net profit compounding at above 20% over 5 years creates significant shareholder value,90
+58,pro,PRO_09,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding,87
+58,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+58,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,82
+58,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+59,con,CON_DEFAULT,Exposed to macroeconomic cyclicality and commodity price fluctuations,75
+59,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+59,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+59,pro,PRO_06,Net profit compounding at above 20% over 5 years creates significant shareholder value,90
+59,pro,PRO_09,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding,87
+59,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+59,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,82
+59,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+60,con,CON_09,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,80
+60,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+60,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+61,con,CON_DEFAULT,Exposed to macroeconomic cyclicality and commodity price fluctuations,75
+61,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+61,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+61,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,82
+61,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+62,con,CON_DEFAULT,Exposed to macroeconomic cyclicality and commodity price fluctuations,75
+62,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+62,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+62,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+63,con,CON_09,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,80
+63,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+63,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+64,con,CON_DEFAULT,Exposed to macroeconomic cyclicality and commodity price fluctuations,75
+64,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+64,pro,PRO_09,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding,87
+64,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,82
+64,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+65,con,CON_09,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,80
+65,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+65,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+66,con,CON_DEFAULT,Exposed to macroeconomic cyclicality and commodity price fluctuations,75
+66,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+66,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+66,pro,PRO_05,Operating profit margin above 25% indicates strong pricing power and cost discipline,92
+66,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+66,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,82
+66,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+67,con,CON_DEFAULT,Exposed to macroeconomic cyclicality and commodity price fluctuations,75
+67,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+67,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+67,pro,PRO_09,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding,87
+67,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+67,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,82
+67,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+68,con,CON_09,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,80
+68,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+68,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+68,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+68,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+69,con,CON_09,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,80
+69,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+69,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+69,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+69,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+70,con,CON_09,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,80
+70,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+70,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+70,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+70,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+71,con,CON_DEFAULT,Exposed to macroeconomic cyclicality and commodity price fluctuations,75
+71,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+71,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+71,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+71,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+72,con,CON_DEFAULT,Exposed to macroeconomic cyclicality and commodity price fluctuations,75
+72,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+72,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+72,pro,PRO_05,Operating profit margin above 25% indicates strong pricing power and cost discipline,92
+72,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+72,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+73,con,CON_DEFAULT,Exposed to macroeconomic cyclicality and commodity price fluctuations,75
+73,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+73,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+73,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+73,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+74,con,CON_09,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,80
+74,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+74,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+74,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+74,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+75,con,CON_DEFAULT,Exposed to macroeconomic cyclicality and commodity price fluctuations,75
+75,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+75,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+75,pro,PRO_06,Net profit compounding at above 20% over 5 years creates significant shareholder value,90
+75,pro,PRO_09,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding,87
+75,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+75,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,82
+75,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+76,con,CON_DEFAULT,Exposed to macroeconomic cyclicality and commodity price fluctuations,75
+76,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+76,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+76,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+76,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+77,con,CON_DEFAULT,Exposed to macroeconomic cyclicality and commodity price fluctuations,75
+77,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+77,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+77,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+77,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+78,con,CON_DEFAULT,Exposed to macroeconomic cyclicality and commodity price fluctuations,75
+78,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+78,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+78,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+78,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,82
+78,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+79,con,CON_09,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,80
+79,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+79,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+79,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+79,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+80,con,CON_DEFAULT,Exposed to macroeconomic cyclicality and commodity price fluctuations,75
+80,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+80,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+80,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+80,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,82
+80,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+81,con,CON_DEFAULT,Exposed to macroeconomic cyclicality and commodity price fluctuations,75
+81,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+81,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+81,pro,PRO_06,Net profit compounding at above 20% over 5 years creates significant shareholder value,90
+81,pro,PRO_09,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding,87
+81,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+81,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,82
+81,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+82,con,CON_DEFAULT,Exposed to macroeconomic cyclicality and commodity price fluctuations,75
+82,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+82,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+82,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+82,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+83,con,CON_DEFAULT,Exposed to macroeconomic cyclicality and commodity price fluctuations,75
+83,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+83,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+83,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+83,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+84,con,CON_09,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,80
+84,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+84,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+84,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+84,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+85,con,CON_DEFAULT,Exposed to macroeconomic cyclicality and commodity price fluctuations,75
+85,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+85,pro,PRO_06,Net profit compounding at above 20% over 5 years creates significant shareholder value,90
+85,pro,PRO_09,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding,87
+85,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,82
+85,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+86,con,CON_09,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,80
+86,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+86,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+86,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+86,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+87,con,CON_09,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,80
+87,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+87,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+87,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+87,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+88,con,CON_DEFAULT,Exposed to macroeconomic cyclicality and commodity price fluctuations,75
+88,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+88,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+88,pro,PRO_05,Operating profit margin above 25% indicates strong pricing power and cost discipline,92
+88,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+88,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,82
+88,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+89,con,CON_DEFAULT,Exposed to macroeconomic cyclicality and commodity price fluctuations,75
+89,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+89,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+89,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+89,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,82
+89,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+90,con,CON_09,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,80
+90,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+90,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+91,con,CON_DEFAULT,Exposed to macroeconomic cyclicality and commodity price fluctuations,75
+91,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+91,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+91,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+91,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
+92,con,CON_DEFAULT,Exposed to macroeconomic cyclicality and commodity price fluctuations,75
+92,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+92,pro,PRO_02,Strong free cash flow generation over 5 years signals healthy business fundamentals,90
+92,pro,PRO_05,Operating profit margin above 25% indicates strong pricing power and cost discipline,92
+92,pro,PRO_09,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding,87
+92,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,80
+92,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,82
+92,pro,PRO_12,Growing asset base funded by internal accruals reflects self-sustaining growth,85
