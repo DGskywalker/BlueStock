@@ -1,0 +1,13 @@
+company_id,ticker,company_name,sector,metric,value,z_score
+35,BEL,BEL India Limited,Construction,return_on_equity_pct,291.85,3.44
+55,ICICIPRULI,ICICIPRULI India Limited,IT,return_on_equity_pct,326.77,3.97
+35,BEL,BEL India Limited,Construction,return_on_capital_employed_pct,375.09,3.11
+49,HDFCLIFE,HDFCLIFE India Limited,Automobile,return_on_capital_employed_pct,384.41,3.22
+55,ICICIPRULI,ICICIPRULI India Limited,IT,return_on_capital_employed_pct,452.98,3.97
+35,BEL,BEL India Limited,Construction,debt_to_equity,0.39,-3.47
+46,CHOLAFIN,CHOLAFIN India Limited,IT,debt_to_equity,0.39,-3.47
+49,HDFCLIFE,HDFCLIFE India Limited,Automobile,debt_to_equity,0.39,-3.47
+55,ICICIPRULI,ICICIPRULI India Limited,IT,debt_to_equity,0.39,-3.47
+59,APOLLOHOSP,APOLLOHOSP India Limited,Metals,debt_to_equity,0.39,-3.47
+68,SRF,SRF India Limited,Metals,debt_to_equity,0.39,-3.47
+87,IRCTC,IRCTC India Limited,Pharma,debt_to_equity,0.39,-3.47

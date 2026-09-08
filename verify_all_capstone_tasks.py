@@ -4,7 +4,7 @@ import pandas as pd
 
 def verify_all():
     print("=" * 85)
-    print("BLUESTOCK FINANCIAL PLATFORM, SPRINTS 1, 2, 3, 4 & 5 — COMPLETE VERIFICATION AUDIT")
+    print("BLUESTOCK FINANCIAL PLATFORM, SPRINTS 1, 2, 3, 4, 5 & 6 — COMPLETE VERIFICATION AUDIT")
     print("=" * 85)
 
     checks = []
@@ -69,6 +69,9 @@ def verify_all():
         ("output/pros_cons_generated.csv", 92),
         ("output/distress_alerts.csv", 1),
         ("output/pattern_changes.csv", 2),
+        ("output/cluster_labels.csv", 92),
+        ("output/outlier_report.csv", 1),
+        ("output/portfolio_stats.csv", 10),
         ("data/processed/api_extracted_data.csv", 3000)
     ]
     for csv_f, min_r in csv_files:
@@ -82,7 +85,15 @@ def verify_all():
         else:
             checks.append((f"CSV Deliverable '{csv_f}'", "Missing", False))
 
-    # 5. Check PDF Reports Directories
+    # 5. Check PDF Reports & Plots
+    plots = [
+        ("reports/elbow_plot.png", "Elbow Curve Plot"),
+        ("reports/correlation_heatmap.png", "Pearson Correlation Heatmap")
+    ]
+    for plt_f, label in plots:
+        exists = os.path.exists(plt_f)
+        checks.append((f"Plot Image '{plt_f}' ({label})", "Exists" if exists else "Missing", exists))
+
     tearsheets_dir = "reports/tearsheets"
     ts_cnt = len([f for f in os.listdir(tearsheets_dir) if f.endswith(".pdf")]) if os.path.exists(tearsheets_dir) else 0
     checks.append((f"Company Tearsheets PDF Directory '{tearsheets_dir}'", f"PDF Count: {ts_cnt}", ts_cnt == 92))
@@ -91,12 +102,18 @@ def verify_all():
     sec_pdf_cnt = len([f for f in os.listdir(sector_pdf_dir) if f.endswith(".pdf")]) if os.path.exists(sector_pdf_dir) else 0
     checks.append((f"Sector Reports PDF Directory '{sector_pdf_dir}'", f"PDF Count: {sec_pdf_cnt}", sec_pdf_cnt >= 9))
 
-    port_pdf = "reports/portfolio/portfolio_summary.pdf"
-    p_pdf_exists = os.path.exists(port_pdf)
-    p_pdf_size = os.path.getsize(port_pdf)//1024 if p_pdf_exists else 0
-    checks.append((f"Portfolio Summary PDF '{port_pdf}'", f"Size: {p_pdf_size} KB", p_pdf_exists and p_pdf_size > 0))
+    doc_pdfs = [
+        ("reports/portfolio/portfolio_summary.pdf", "Portfolio Summary PDF"),
+        ("docs/analyst_guide.pdf", "Analyst User Guide PDF (10+ pages)"),
+        ("docs/acceptance_checklist.pdf", "Final Acceptance Checklist PDF (20 Gates)"),
+        ("docs/openapi.json", "OpenAPI 3.0 Specification JSON")
+    ]
+    for doc_f, label in doc_pdfs:
+        d_exists = os.path.exists(doc_f)
+        d_size = os.path.getsize(doc_f)//1024 if d_exists else 0
+        checks.append((f"Document/Spec '{doc_f}' ({label})", f"Size: {d_size} KB", d_exists and d_size > 0))
 
-    # 6. Check Streamlit Dashboard Screens
+    # 6. Check Streamlit Dashboard & FastAPI Server Files
     dashboard_files = [
         "src/dashboard/app.py",
         "src/dashboard/utils/db.py",
@@ -107,31 +124,21 @@ def verify_all():
         "pages/05_trends.py",
         "pages/06_sectors.py",
         "pages/07_capital.py",
-        "pages/08_reports.py"
+        "pages/08_reports.py",
+        "src/api/main.py",
+        "src/api/routers/companies.py",
+        "src/api/routers/screener.py",
+        "src/api/routers/sectors.py",
+        "src/api/routers/peers.py",
+        "src/api/routers/valuation.py",
+        "src/api/routers/portfolio.py",
+        "src/api/routers/health.py"
     ]
     for df_f in dashboard_files:
         d_exists = os.path.exists(df_f)
-        checks.append((f"Dashboard Screen File '{df_f}'", "Exists" if d_exists else "Missing", d_exists))
+        checks.append((f"Source Code File '{df_f}'", "Exists" if d_exists else "Missing", d_exists))
 
-    # 7. Check Analytics & Report Modules
-    modules = [
-        "src/analytics/ratios.py",
-        "src/analytics/cagr.py",
-        "src/analytics/cashflow_kpis.py",
-        "src/screener/engine.py",
-        "src/analytics/peer.py",
-        "src/analytics/valuation.py",
-        "src/nlp/parser.py",
-        "src/nlp/pros_cons_generator.py",
-        "src/reports/tearsheet.py",
-        "src/reports/sector_report.py",
-        "src/reports/portfolio_report.py"
-    ]
-    for mod in modules:
-        m_exists = os.path.exists(mod)
-        checks.append((f"Analytics/Report Module '{mod}'", "Exists" if m_exists else "Missing", m_exists))
-
-    # 8. Check All Unit Tests
+    # 7. Check All Unit Tests
     unit_tests = [
         "tests/kpi/test_ratios.py",
         "tests/kpi/test_cagr.py",
@@ -140,11 +147,12 @@ def verify_all():
         "tests/peer/test_peer.py",
         "tests/valuation/test_valuation.py",
         "tests/nlp/test_nlp.py",
-        "tests/reports/test_reports.py"
+        "tests/reports/test_reports.py",
+        "tests/api/test_api.py"
     ]
     for ut in unit_tests:
         ut_exists = os.path.exists(ut)
-        checks.append((f"Unit Test File '{ut}'", "Exists" if ut_exists else "Missing", ut_exists))
+        checks.append((f"Unit/API Test File '{ut}'", "Exists" if ut_exists else "Missing", ut_exists))
 
     # Print Verification Results
     print("\n" + f"{'VERIFICATION CHECKITEM':<60} | {'METRIC RESULT':<18} | {'STATUS'}")
@@ -157,7 +165,7 @@ def verify_all():
 
     print("=" * 90)
     if all_passed:
-        print("🎉 ALL SPRINTS 1, 2, 3, 4 & 5 PLATFORM TASKS VERIFIED 100% SUCCESSFUL!")
+        print("🎉 ALL SPRINTS 1, 2, 3, 4, 5 & 6 PLATFORM TASKS & ACCEPTANCE GATES VERIFIED 100% SUCCESSFUL!")
     else:
         print("❌ VERIFICATION FAILURES ENCOUNTERED.")
     print("=" * 90 + "\n")

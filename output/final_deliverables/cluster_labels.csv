@@ -1,0 +1,93 @@
+company_id,ticker,company_name,sector,cluster_id,cluster_name,distance_from_centroid
+1,RELIANCE,RELIANCE India Limited,IT,1,Defensive Dividend Payers,0.154
+2,TCS,TCS India Limited,Oil & Gas,1,Defensive Dividend Payers,0.5143
+3,HDFCBANK,HDFCBANK India Limited,Consumer Goods,1,Defensive Dividend Payers,0.3323
+4,ICICIBANK,ICICIBANK India Limited,Automobile,1,Defensive Dividend Payers,0.9183
+5,INFY,INFY India Limited,Metals,2,Value Cyclicals,0.3602
+6,BHARTIARTL,BHARTIARTL India Limited,Pharma,2,Value Cyclicals,0.9343
+7,ITC,ITC India Limited,Power,2,Value Cyclicals,0.5537
+8,SBIN,SBIN India Limited,Construction,2,Value Cyclicals,0.8527
+9,LTIM,LTIM India Limited,Financial Services,2,Value Cyclicals,0.9872
+10,HINDUNILVR,HINDUNILVR India Limited,IT,1,Defensive Dividend Payers,0.3758
+11,LT,LT India Limited,Oil & Gas,1,Defensive Dividend Payers,0.3804
+12,BAJFINANCE,BAJFINANCE India Limited,Consumer Goods,1,Defensive Dividend Payers,0.1475
+13,HCLTECH,HCLTECH India Limited,Automobile,1,Defensive Dividend Payers,0.6115
+14,MARUTI,MARUTI India Limited,Metals,1,Defensive Dividend Payers,0.1684
+15,SUNPHARMA,SUNPHARMA India Limited,Pharma,1,Defensive Dividend Payers,0.362
+16,AXISBANK,AXISBANK India Limited,Power,1,Defensive Dividend Payers,0.1277
+17,ADANIENT,ADANIENT India Limited,Construction,1,Defensive Dividend Payers,0.0488
+18,KOTAKBANK,KOTAKBANK India Limited,Financial Services,1,Defensive Dividend Payers,0.4315
+19,TITAN,TITAN India Limited,IT,2,Value Cyclicals,0.5757
+20,ONGC,ONGC India Limited,Oil & Gas,1,Defensive Dividend Payers,0.4402
+21,TATAMOTORS,TATAMOTORS India Limited,Consumer Goods,2,Value Cyclicals,0.6548
+22,NTPC,NTPC India Limited,Automobile,1,Defensive Dividend Payers,0.2527
+23,POWERGRID,POWERGRID India Limited,Metals,1,Defensive Dividend Payers,0.7598
+24,ULTRACEMCO,ULTRACEMCO India Limited,Pharma,4,Emerging Growth,0.1623
+25,ASIANPAINT,ASIANPAINT India Limited,Power,1,Defensive Dividend Payers,0.395
+26,COALINDIA,COALINDIA India Limited,Construction,2,Value Cyclicals,0.2189
+27,BAJAJFINSV,BAJAJFINSV India Limited,Financial Services,1,Defensive Dividend Payers,0.9462
+28,M_M,M_M India Limited,IT,2,Value Cyclicals,0.2018
+29,JSWSTEEL,JSWSTEEL India Limited,Oil & Gas,1,Defensive Dividend Payers,0.346
+30,TATASTEEL,TATASTEEL India Limited,Consumer Goods,1,Defensive Dividend Payers,0.468
+31,ADANIPORTS,ADANIPORTS India Limited,Automobile,2,Value Cyclicals,0.8763
+32,SIEMENS,SIEMENS India Limited,Metals,2,Value Cyclicals,0.8168
+33,GRASIM,GRASIM India Limited,Pharma,4,Emerging Growth,1.058
+34,PIDILITIND,PIDILITIND India Limited,Power,2,Value Cyclicals,0.6717
+35,BEL,BEL India Limited,Construction,0,High-Quality Compounders,0.7113
+36,IOC,IOC India Limited,Financial Services,1,Defensive Dividend Payers,0.2851
+37,HAL,HAL India Limited,IT,2,Value Cyclicals,0.7215
+38,VBL,VBL India Limited,Oil & Gas,1,Defensive Dividend Payers,0.5597
+39,INDUSINDBK,INDUSINDBK India Limited,Consumer Goods,2,Value Cyclicals,0.4422
+40,BPCL,BPCL India Limited,Automobile,1,Defensive Dividend Payers,0.6009
+41,NESTLEIND,NESTLEIND India Limited,Metals,2,Value Cyclicals,0.5335
+42,GODREJCP,GODREJCP India Limited,Pharma,1,Defensive Dividend Payers,0.2393
+43,DLF,DLF India Limited,Power,1,Defensive Dividend Payers,0.5668
+44,TRENT,TRENT India Limited,Construction,4,Emerging Growth,0.5289
+45,ZOMATO,ZOMATO India Limited,Financial Services,1,Defensive Dividend Payers,0.8052
+46,CHOLAFIN,CHOLAFIN India Limited,IT,3,Turnaround Watch,0.985
+47,GAIL,GAIL India Limited,Oil & Gas,1,Defensive Dividend Payers,0.4747
+48,DIVISLAB,DIVISLAB India Limited,Consumer Goods,2,Value Cyclicals,0.1798
+49,HDFCLIFE,HDFCLIFE India Limited,Automobile,0,High-Quality Compounders,0.9713
+50,BRITANNIA,BRITANNIA India Limited,Metals,4,Emerging Growth,0.5255
+51,CIPLA,CIPLA India Limited,Pharma,1,Defensive Dividend Payers,0.6161
+52,INTERGLOBE,INTERGLOBE India Limited,Power,2,Value Cyclicals,0.4175
+53,SHRIRAMFIN,SHRIRAMFIN India Limited,Construction,1,Defensive Dividend Payers,0.5585
+54,BAJAJ-AUTO,BAJAJ-AUTO India Limited,Financial Services,1,Defensive Dividend Payers,0.2595
+55,ICICIPRULI,ICICIPRULI India Limited,IT,0,High-Quality Compounders,0.7833
+56,TECHM,TECHM India Limited,Oil & Gas,4,Emerging Growth,0.3721
+57,HEROMOTOCO,HEROMOTOCO India Limited,Consumer Goods,1,Defensive Dividend Payers,0.4574
+58,EICHERMOT,EICHERMOT India Limited,Automobile,2,Value Cyclicals,0.789
+59,APOLLOHOSP,APOLLOHOSP India Limited,Metals,0,High-Quality Compounders,0.8168
+60,DRREDDY,DRREDDY India Limited,Pharma,1,Defensive Dividend Payers,0.5135
+61,VARUNBEV,VARUNBEV India Limited,Power,2,Value Cyclicals,0.7786
+62,AMBUJACEM,AMBUJACEM India Limited,Construction,1,Defensive Dividend Payers,0.3417
+63,TATAELXSI,TATAELXSI India Limited,Financial Services,1,Defensive Dividend Payers,0.3106
+64,ABB,ABB India Limited,IT,2,Value Cyclicals,0.5466
+65,MOTHERSON,MOTHERSON India Limited,Oil & Gas,1,Defensive Dividend Payers,0.6397
+66,BOSCHLTD,BOSCHLTD India Limited,Consumer Goods,2,Value Cyclicals,0.364
+67,INDIGO,INDIGO India Limited,Automobile,4,Emerging Growth,0.9081
+68,SRF,SRF India Limited,Metals,3,Turnaround Watch,0.2717
+69,POLYCAB,POLYCAB India Limited,Pharma,1,Defensive Dividend Payers,0.4058
+70,LODHA,LODHA India Limited,Power,1,Defensive Dividend Payers,0.566
+71,JIOFIN,JIOFIN India Limited,Construction,4,Emerging Growth,0.9359
+72,MUTHOOTFIN,MUTHOOTFIN India Limited,Financial Services,2,Value Cyclicals,0.7647
+73,CANBK,CANBK India Limited,IT,1,Defensive Dividend Payers,0.1964
+74,TATACOMM,TATACOMM India Limited,Oil & Gas,1,Defensive Dividend Payers,0.1255
+75,MAXHEALTH,MAXHEALTH India Limited,Consumer Goods,2,Value Cyclicals,0.3821
+76,PAGEIND,PAGEIND India Limited,Automobile,2,Value Cyclicals,0.5525
+77,COLPAL,COLPAL India Limited,Metals,2,Value Cyclicals,0.4386
+78,ICICIGI,ICICIGI India Limited,Pharma,1,Defensive Dividend Payers,1.0975
+79,IDFCFIRSTB,IDFCFIRSTB India Limited,Power,1,Defensive Dividend Payers,0.3057
+80,TATAINVEST,TATAINVEST India Limited,Construction,1,Defensive Dividend Payers,0.1808
+81,PERSISTENT,PERSISTENT India Limited,Financial Services,2,Value Cyclicals,0.1608
+82,TATACHEM,TATACHEM India Limited,IT,1,Defensive Dividend Payers,0.314
+83,MANKIND,MANKIND India Limited,Oil & Gas,2,Value Cyclicals,0.7148
+84,PAYTM,PAYTM India Limited,Consumer Goods,1,Defensive Dividend Payers,0.8532
+85,POLICYBZR,POLICYBZR India Limited,Automobile,1,Defensive Dividend Payers,0.5111
+86,AWL,AWL India Limited,Metals,1,Defensive Dividend Payers,0.5966
+87,IRCTC,IRCTC India Limited,Pharma,3,Turnaround Watch,0.8433
+88,PFC,PFC India Limited,Power,2,Value Cyclicals,0.4964
+89,RECLTD,RECLTD India Limited,Construction,1,Defensive Dividend Payers,0.5293
+90,SAIL,SAIL India Limited,Financial Services,1,Defensive Dividend Payers,0.6382
+91,VEDL,VEDL India Limited,IT,2,Value Cyclicals,0.1613
+92,WIPRO,WIPRO India Limited,Oil & Gas,2,Value Cyclicals,0.5356
