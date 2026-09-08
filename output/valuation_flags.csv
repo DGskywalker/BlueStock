@@ -1,0 +1,16 @@
+company_id,ticker,company_name,sector,pe_ratio,pb_ratio,ev_to_ebitda,fcf_yield_pct,median_5yr_pe,sector_median_pe,pe_vs_sector_median_pct,valuation_flag
+10,HINDUNILVR,HINDUNILVR India Limited,IT,34.67,2.95,26.0,0.92,25.43,20.7,67.49,Caution
+55,ICICIPRULI,ICICIPRULI India Limited,IT,34.15,2.2,25.61,0.18,26.63,20.7,64.98,Caution
+64,ABB,ABB India Limited,IT,34.08,5.87,25.56,1.79,29.28,20.7,64.64,Caution
+47,GAIL,GAIL India Limited,Oil & Gas,34.2,2.29,25.65,0.95,28.46,21.26,60.87,Caution
+73,CANBK,CANBK India Limited,IT,31.51,3.9,23.63,0.57,22.58,20.7,52.22,Caution
+40,BPCL,BPCL India Limited,Automobile,18.01,4.15,13.51,1.28,22.6,25.759999999999998,-30.09,Discount
+31,ADANIPORTS,ADANIPORTS India Limited,Automobile,17.81,2.64,13.36,0.2,22.74,25.759999999999998,-30.86,Discount
+67,INDIGO,INDIGO India Limited,Automobile,17.76,4.6,13.32,0.23,25.63,25.759999999999998,-31.06,Discount
+27,BAJAJFINSV,BAJAJFINSV India Limited,Financial Services,17.92,3.52,13.44,0.34,26.87,27.04,-33.73,Discount
+7,ITC,ITC India Limited,Power,19.6,2.5,14.7,2.15,25.21,29.64,-33.87,Discount
+53,SHRIRAMFIN,SHRIRAMFIN India Limited,Construction,15.4,5.73,11.55,0.38,24.3,23.450000000000003,-34.33,Discount
+35,BEL,BEL India Limited,Construction,15.39,4.64,11.54,0.4,23.9,23.450000000000003,-34.37,Discount
+44,TRENT,TRENT India Limited,Construction,15.12,4.41,11.34,0.34,23.46,23.450000000000003,-35.52,Discount
+22,NTPC,NTPC India Limited,Automobile,16.02,4.65,12.02,0.37,21.17,25.759999999999998,-37.81,Discount
+36,IOC,IOC India Limited,Financial Services,15.47,2.79,11.6,0.52,29.51,27.04,-42.79,Discount

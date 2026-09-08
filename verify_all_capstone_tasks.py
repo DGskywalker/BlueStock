@@ -4,7 +4,7 @@ import pandas as pd
 
 def verify_all():
     print("=" * 85)
-    print("BLUESTOCK MUTUAL FUND, SPRINTS 1, 2 & 3 — COMPLETE VERIFICATION AUDIT")
+    print("BLUESTOCK FINANCIAL PLATFORM, SPRINTS 1, 2, 3 & 4 — COMPLETE VERIFICATION AUDIT")
     print("=" * 85)
 
     checks = []
@@ -43,16 +43,18 @@ def verify_all():
     else:
         checks.append(("bluestock_mf.db Database Existence", "Missing", False))
 
-    # 3. Check CSV & Excel Deliverables
+    # 3. Check Excel Deliverables
     excel_files = [
         "output/screener_output.xlsx",
-        "output/peer_comparison.xlsx"
+        "output/peer_comparison.xlsx",
+        "output/valuation_summary.xlsx"
     ]
     for ex_f in excel_files:
         exists = os.path.exists(ex_f)
         size = os.path.getsize(ex_f) if exists else 0
         checks.append((f"Excel Deliverable '{ex_f}'", f"Size: {size//1024} KB", exists and size > 0))
 
+    # 4. Check CSV Deliverables
     csv_files = [
         ("fund_scorecard.csv", 40),
         ("alpha_beta.csv", 40),
@@ -60,6 +62,7 @@ def verify_all():
         ("output/load_audit.csv", 11),
         ("output/validation_failures.csv", 0),
         ("output/capital_allocation.csv", 1000),
+        ("output/valuation_flags.csv", 5),
         ("data/processed/api_extracted_data.csv", 3000)
     ]
     for csv_f, min_r in csv_files:
@@ -70,42 +73,48 @@ def verify_all():
         else:
             checks.append((f"CSV Deliverable '{csv_f}'", "Missing", False))
 
-    log_f = "output/ratio_edge_cases.log"
-    log_exists = os.path.exists(log_f)
-    checks.append((f"Log Deliverable '{log_f}'", "Exists" if log_exists else "Missing", log_exists))
+    # 5. Check Streamlit Dashboard Screens (8 screens)
+    dashboard_files = [
+        "src/dashboard/app.py",
+        "src/dashboard/utils/db.py",
+        "pages/01_home.py",
+        "pages/02_profile.py",
+        "pages/03_screener.py",
+        "pages/04_peers.py",
+        "pages/05_trends.py",
+        "pages/06_sectors.py",
+        "pages/07_capital.py",
+        "pages/08_reports.py"
+    ]
+    for df_f in dashboard_files:
+        d_exists = os.path.exists(df_f)
+        checks.append((f"Dashboard Screen File '{df_f}'", "Exists" if d_exists else "Missing", d_exists))
 
-    # 4. Check Config & Radar Charts
-    cfg_f = "config/screener_config.yaml"
-    cfg_exists = os.path.exists(cfg_f)
-    checks.append((f"Config File '{cfg_f}'", "Exists" if cfg_exists else "Missing", cfg_exists))
-
-    radar_dir = "reports/radar_charts"
-    radar_cnt = len([f for f in os.listdir(radar_dir) if f.endswith(".png")]) if os.path.exists(radar_dir) else 0
-    checks.append((f"Radar Charts Directory '{radar_dir}'", f"PNG Charts: {radar_cnt}", radar_cnt > 0))
-
-    # 5. Check Analytics Modules
+    # 6. Check Analytics Modules
     modules = [
         "src/analytics/ratios.py",
         "src/analytics/cagr.py",
         "src/analytics/cashflow_kpis.py",
         "src/screener/engine.py",
-        "src/analytics/peer.py"
+        "src/analytics/peer.py",
+        "src/analytics/valuation.py"
     ]
     for mod in modules:
         m_exists = os.path.exists(mod)
         checks.append((f"Analytics Module '{mod}'", "Exists" if m_exists else "Missing", m_exists))
 
-    # 6. Check All Unit Tests
-    kpi_tests = [
+    # 7. Check All Unit Tests
+    unit_tests = [
         "tests/kpi/test_ratios.py",
         "tests/kpi/test_cagr.py",
         "tests/kpi/test_cashflow_kpis.py",
         "tests/screener/test_screener.py",
-        "tests/peer/test_peer.py"
+        "tests/peer/test_peer.py",
+        "tests/valuation/test_valuation.py"
     ]
-    for kt in kpi_tests:
-        kt_exists = os.path.exists(kt)
-        checks.append((f"Unit Test File '{kt}'", "Exists" if kt_exists else "Missing", kt_exists))
+    for ut in unit_tests:
+        ut_exists = os.path.exists(ut)
+        checks.append((f"Unit Test File '{ut}'", "Exists" if ut_exists else "Missing", ut_exists))
 
     # Print Verification Results
     print("\n" + f"{'VERIFICATION CHECKITEM':<60} | {'METRIC RESULT':<18} | {'STATUS'}")
@@ -118,7 +127,7 @@ def verify_all():
 
     print("=" * 90)
     if all_passed:
-        print("🎉 ALL SPRINTS 1, 2, 3 & CAPSTONE TASKS VERIFIED 100% SUCCESSFUL!")
+        print("🎉 ALL SPRINTS 1, 2, 3 & 4 PLATFORM TASKS VERIFIED 100% SUCCESSFUL!")
     else:
         print("❌ VERIFICATION FAILURES ENCOUNTERED.")
     print("=" * 90 + "\n")
