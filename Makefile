@@ -44,18 +44,12 @@ docs:
 	$(PYTHON) generate_sprint6_final.py
 
 test:
-	@echo "=== Running All Unit & API Test Suites (80+ Tests across ETL, KPI, Screener, Peer, Valuation, NLP, Reports & API) ==="
-	$(PYTHON) -m unittest discover -s tests/etl -p "test_*.py"
-	$(PYTHON) -m unittest discover -s tests/kpi -p "test_*.py"
-	$(PYTHON) -m unittest discover -s tests/screener -p "test_*.py"
-	$(PYTHON) -m unittest discover -s tests/peer -p "test_*.py"
-	$(PYTHON) -m unittest discover -s tests/valuation -p "test_*.py"
-	$(PYTHON) -m unittest discover -s tests/nlp -p "test_*.py"
-	$(PYTHON) -m unittest discover -s tests/reports -p "test_*.py"
-	$(PYTHON) -m unittest discover -s tests/api -p "test_*.py"
+	@echo "=== Running All Unit & API Test Suites (80+ Tests) & Generating reports/pytest_report.html ==="
+	$(PYTHON) scripts/generate_test_report.py
 
 report:
-	@echo "=== Generating Final PDF Reports & Presentation Decks ==="
+	@echo "=== Generating Tearsheet, Sector, Portfolio PDF Reports & Presentation Decks ==="
+	$(PYTHON) generate_sprint5_nlp_reports.py
 	$(PYTHON) generate_final_report.py
 	$(PYTHON) generate_presentation.py
 
@@ -64,8 +58,8 @@ dashboard:
 	streamlit run app.py
 
 api:
-	@echo "=== Running REST API Data Extraction ==="
-	$(PYTHON) scripts/api_json_extractor.py
+	@echo "=== Launching FastAPI Server on http://localhost:8000 ==="
+	uvicorn src.api.main:app --host 0.0.0.0 --port 8000 --reload
 
 clean:
 	@echo "=== Cleaning Generated Cache & Temporary Artifacts ==="

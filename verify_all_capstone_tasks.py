@@ -104,6 +104,7 @@ def verify_all():
 
     doc_pdfs = [
         ("reports/portfolio/portfolio_summary.pdf", "Portfolio Summary PDF"),
+        ("reports/pytest_report.html", "Test Suite Execution HTML Report (D-21)"),
         ("docs/analyst_guide.pdf", "Analyst User Guide PDF (10+ pages)"),
         ("docs/acceptance_checklist.pdf", "Final Acceptance Checklist PDF (20 Gates)"),
         ("docs/openapi.json", "OpenAPI 3.0 Specification JSON")
