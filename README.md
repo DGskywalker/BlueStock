@@ -2,14 +2,14 @@
 
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://www.python.org/)
 [![SQLite](https://img.shields.io/badge/Database-SQLite3-green.svg)](https://www.sqlite.org/)
-[![Power BI](https://img.shields.io/badge/Dashboard-Power%20BI-yellow.svg)](https://powerbi.microsoft.com/)
+[![FastAPI](https://img.shields.io/badge/API-FastAPI-009688.svg)](https://fastapi.tiangolo.com/)
 [![Streamlit](https://img.shields.io/badge/Web%20App-Streamlit-red.svg)](https://streamlit.io/)
-[![Unit Tests](https://img.shields.io/badge/Tests-75%20Passed-brightgreen.svg)](https://github.com/DGskywalker/BlueStock)
+[![Unit Tests](https://img.shields.io/badge/Tests-80%2B%20Passed-brightgreen.svg)](https://github.com/DGskywalker/BlueStock)
 [![Release](https://img.shields.io/badge/Release-v1.0-brightgreen.svg)](https://github.com/DGskywalker/BlueStock/releases/tag/v1.0)
 
-An end-to-end data engineering, equity research, financial ratio calculation engine, quantitative valuation engine, NLP text parser, cash flow intelligence module, ReportLab PDF tearsheet engine, risk analytics, and 8-screen interactive web dashboard built for **Bluestock Fintech**.
+An end-to-end data engineering, equity research, financial ratio calculation engine, quantitative valuation engine, NLP text parser, cash flow intelligence module, ReportLab PDF tearsheet engine, KMeans clustering module, 16-endpoint FastAPI REST API server, and 8-screen interactive web dashboard built for **Bluestock Fintech**.
 
-The platform automates raw financial data ingestion, executes 16 data quality validation rules, loads a relational SQLite database (`nifty100.db` & `bluestock_mf.db`), calculates 50+ financial ratios, handles multi-year CAGR edge cases, classifies capital allocation patterns, powers 6 preset stock screeners, evaluates 11 peer group percentile rankings, renders 92 polar radar visualizations, computes FCF Yield and overvaluation flags (`Caution`, `Discount`, `Fair`), parses CAGR text using regex, generates 24 rule-based pros and cons with confidence scores (>60%), classifies CFO quality and distress signals, batch renders 92 2-page company PDF tearsheets and 11 sector PDF reports, models mutual fund risk (VaR, CVaR, Sharpe, Beta), and serves an 8-screen interactive Streamlit web dashboard.
+The platform automates raw financial data ingestion, executes 16 data quality validation rules, loads a relational SQLite database (`nifty100.db` & `bluestock_mf.db`), calculates 50+ financial ratios, handles multi-year CAGR edge cases, classifies capital allocation patterns, powers 6 preset stock screeners, evaluates 11 peer group percentile rankings, renders 92 polar radar visualizations, computes FCF Yield and overvaluation flags (`Caution`, `Discount`, `Fair`), parses CAGR text using regex, generates 24 rule-based pros and cons with confidence scores (>60%), classifies CFO quality and distress signals, batch renders 92 2-page company PDF tearsheets and 11 sector PDF reports, runs KMeans clustering ($k=5$) for archetype discovery, exposes a 16-endpoint FastAPI REST API with OpenAPI documentation, models mutual fund risk (VaR, CVaR, Sharpe, Beta), and serves an 8-screen interactive Streamlit web dashboard.
 
 ---
 
@@ -23,8 +23,10 @@ BlueStock Platform Architecture
 ├── 4. Valuation Analytics Engine ----> FCF Yield, Sector Median P/E, Caution/Discount Overvaluation Flags
 ├── 5. Cash Flow & NLP Engine ---------> Regex Analysis Text Parser, 24 Auto Pros/Cons Rules (>60% Confidence)
 ├── 6. PDF Report Generation Engine ----> 92 Company PDF Tearsheets, 11 Sector PDFs, Portfolio Summary PDF
-├── 7. 8-Screen Web Dashboard ---------> Multi-Page Streamlit App (streamlit run app.py) & Power BI
-└── 8. Build & Automation -------------> Makefile Build Targets & Automated Unit Test Suite (75 Tests)
+├── 7. KMeans Clustering Module -------> k=5 Archetype Segmentation, Outlier Detection & Inertia Elbow Plot
+├── 8. REST API Engine (FastAPI) ------> 16 Endpoint REST Server with OpenAPI Specification (docs/openapi.json)
+├── 9. 8-Screen Web Dashboard ---------> Multi-Page Streamlit App (streamlit run app.py)
+└── 10. Build & QA Automation ---------> Makefile Automation, HTML Test Audit Report & 80+ Unit Tests
 ```
 
 ---
@@ -70,8 +72,19 @@ BlueStock Platform Architecture
 - **Sector PDF Reports (`reports/sector/`)**: Batch generates 11 sector PDF reports with sector median KPIs and company metric lists.
 - **Portfolio Summary PDF (`reports/portfolio/portfolio_summary.pdf`)**: 92-page PDF report sorted alphabetically by ticker with top 6 KPIs and YoY trend arrows.
 
-### 8. Interactive 8-Screen Streamlit Web Dashboard (`src/dashboard/app.py` & `pages/`)
-Launch using `streamlit run app.py` or `streamlit run src/dashboard/app.py`:
+### 8. KMeans Clustering Module (`src/analytics/clustering.py`)
+- **Feature Standardisation**: Imputes sector medians for missing data and standardises 5 core features (`ROE %`, `D/E`, `Revenue 5Y CAGR`, `FCF 5Y CAGR`, `OPM %`) using `StandardScaler`.
+- **Optimal Cluster Selection ($k=5$)**: Evaluates inertia across $k=2\dots10$, generating the elbow plot (`reports/elbow_plot.png`) to confirm $k=5$ as optimal.
+- **Archetype Segmentation**: Segments companies into 5 distinct clusters (`High-Margin Quality Compounders`, `Capital-Intensive Growth`, `Stagnant / Turnaround Candidates`, `Moderate Leverage Stable Earners`, `High-Debt High-Growth Speculative`).
+- **Outputs**: `output/cluster_labels.csv`, `reports/elbow_plot.png`, `reports/correlation_heatmap.png`, `output/outlier_report.csv`, and `output/portfolio_stats.csv`.
+
+### 9. FastAPI REST API Server (`src/api/main.py`)
+- **16 REST Endpoints**: Implements 7 modular router packages (`companies.py`, `screener.py`, `sectors.py`, `peers.py`, `valuation.py`, `portfolio.py`, `health.py`).
+- **OpenAPI Specification**: Interactive Swagger documentation available at `http://localhost:8000/docs` and exported to `docs/openapi.json`.
+- **Features**: Filtering by metric thresholds, company financial lookups, sector benchmarks, valuation signals, and portfolio analytics.
+
+### 10. Interactive 8-Screen Streamlit Web Dashboard (`src/dashboard/app.py` & `pages/`)
+Launch using `streamlit run app.py` or `make dashboard`:
 1. **Home Overview (`pages/01_home.py`)**: Top 6 summary KPI tiles, Plotly sector breakdown donut chart, top 5 quality companies table, sidebar year filter.
 2. **Company 360° Profile (`pages/02_profile.py`)**: Autocomplete search, company metadata card, 6 KPI cards, 10-year Revenue & Net Profit bar chart, ROE/ROCE line chart, Pros & Cons badges.
 3. **Interactive Stock Screener (`pages/03_screener.py`)**: 10 metric sliders, 6 preset buttons, live filtered results table, result count label, and CSV export download button.
@@ -79,7 +92,7 @@ Launch using `streamlit run app.py` or `streamlit run src/dashboard/app.py`:
 5. **Multi-Metric Trend Analysis (`pages/05_trends.py`)**: Overlay up to 3 financial metrics over 10 years with YoY % growth annotations.
 6. **Sector Deep Dive (`pages/06_sectors.py`)**: Sector dropdown, bubble scatter chart (Revenue vs ROE vs Market Cap), sector median bar chart.
 7. **Capital Allocation Map (`pages/07_capital.py`)**: Plotly Treemap of 92 companies grouped by 8 capital allocation patterns with interactive company list.
-8. **Annual Reports Filing Repository (`pages/08_reports.py`)**: Company document search, BSE PDF download links, and red `"Report unavailable"` fallback status badges.
+8. **Annual Reports Filing Repository (`pages/08_reports.py`)**: Company document search, BSE PDF download links, and fallback status badges.
 
 ---
 
@@ -100,38 +113,56 @@ make screener    # Runs 6 Stock Screener Presets, 11 Peer Groups, Excel exports 
 make valuation   # Executes Valuation Engine (output/valuation_summary.xlsx & valuation_flags.csv)
 make nlp         # Executes NLP Parser & Auto Pros/Cons Generator
 make pdfs        # Batch generates 92 company tearsheet PDFs & 11 sector PDF reports
-make test        # Executes 75+ unit tests across all test modules
-make dashboard   # Launches interactive Streamlit web application on localhost:8501
+make cluster     # Runs KMeans clustering (k=5), generates elbow plot & correlation heatmap
+make api         # Launches FastAPI REST Server on http://localhost:8000
+make test        # Executes 80+ unit/API tests & generates reports/pytest_report.html
+make dashboard   # Launches interactive Streamlit web application on http://localhost:8501
 make report      # Generates technical PDF reports & presentation deck
+make clean       # Cleans python cache and temporary test artifacts
 ```
 
-### 3. Running the Streamlit Web Application
+### 3. Running the REST API Server
 ```bash
-streamlit run app.py
+make api
+# Interactive API Docs available at http://localhost:8000/docs
 ```
 
-### 4. Automated Verification Audit
+### 4. Running the Streamlit Web Application
+```bash
+make dashboard
+# Dashboard available at http://localhost:8501
+```
+
+### 5. Automated Verification Audit
 ```bash
 python3 verify_all_capstone_tasks.py
 ```
 
 ---
 
-## 🧪 Unit Test Suite Verification (75 Unit Tests)
+## 🧪 Unit Test Suite Verification (80+ Unit & API Tests)
 
 ```bash
-=== Running All Unit Test Suites (80+ Unit Tests across ETL, KPI, Screener, Peer, Valuation, NLP & Reports) ===
-python3 -m unittest discover -s tests/etl -p "test_*.py"       # 35 Passed in 0.009s - OK
-python3 -m unittest discover -s tests/kpi -p "test_*.py"       # 23 Passed in 0.003s - OK
-python3 -m unittest discover -s tests/screener -p "test_*.py"  #  5 Passed in 0.503s - OK
-python3 -m unittest discover -s tests/peer -p "test_*.py"      #  3 Passed in 0.085s - OK
-python3 -m unittest discover -s tests/valuation -p "test_*.py" #  4 Passed in 0.258s - OK
-python3 -m unittest discover -s tests/nlp -p "test_*.py"       #  3 Passed in 0.083s - OK
-python3 -m unittest discover -s tests/reports -p "test_*.py"   #  2 Passed in 2.856s - OK
+=== Running All Unit & API Test Suites (80+ Tests across ETL, KPI, Screener, Peer, Valuation, NLP, Reports & API) ===
+python3 scripts/generate_test_report.py
 ```
+
+| Test Suite Module | Directory Path | Tests Executed | Passed | Failed | Errors | Duration | Status |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| **ETL Pipeline** | `tests/etl` | 35 | 35 | 0 | 0 | 0.028s | **PASSED** |
+| **KPI Analytics Engine** | `tests/kpi` | 23 | 23 | 0 | 0 | 7.041s | **PASSED** |
+| **Stock Screener Engine** | `tests/screener` | 5 | 5 | 0 | 0 | 0.354s | **PASSED** |
+| **Peer Comparison Analytics** | `tests/peer` | 3 | 3 | 0 | 0 | 0.426s | **PASSED** |
+| **Valuation Engine** | `tests/valuation` | 4 | 4 | 0 | 0 | 0.276s | **PASSED** |
+| **NLP & Pros/Cons Engine** | `tests/nlp` | 3 | 3 | 0 | 0 | 0.266s | **PASSED** |
+| **Report Generators** | `tests/reports` | 2 | 2 | 0 | 0 | 0.632s | **PASSED** |
+| **FastAPI REST Server** | `tests/api` | 5 | 5 | 0 | 0 | 0.494s | **PASSED** |
+
+HTML test report auto-generated at `reports/pytest_report.html`.
 
 ---
 
-## 🏷️ Repository Release Info
+## 🏷️ Deliverables & Release Info
 - **Version**: `v1.0`
 - **GitHub Repository**: [https://github.com/DGskywalker/BlueStock](https://github.com/DGskywalker/BlueStock)
+- **Deliverables**: 23 core artifacts (`output/`, `reports/`, `docs/`, `data/`) fully verified and archived.
